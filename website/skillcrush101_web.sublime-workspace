@@ -1,0 +1,659 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"bol",
+				"bolder"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"s",
+				"font-size"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"birth",
+				"birth_path_num"
+			],
+			[
+				"bir",
+				"birthdate"
+			],
+			[
+				"b",
+				"birthdate"
+			],
+			[
+				"sunny",
+				"sunny_weather"
+			],
+			[
+				"weather",
+				"weather_description"
+			],
+			[
+				"weath",
+				"weather_description"
+			],
+			[
+				"w",
+				"weather_description"
+			],
+			[
+				"to",
+				"to_i"
+			],
+			[
+				"str",
+				"str_forecast"
+			],
+			[
+				"st",
+				"strftime"
+			],
+			[
+				"my",
+				"my_temp"
+			],
+			[
+				"f",
+				"fahrenheit"
+			],
+			[
+				"unit",
+				"degree_units"
+			],
+			[
+				"the",
+				"the_message"
+			],
+			[
+				"play",
+				"play_game"
+			],
+			[
+				"Magi",
+				"Magic8Ball"
+			],
+			[
+				"test",
+				"test_user"
+			],
+			[
+				"bp",
+				"bp_content"
+			],
+			[
+				"get",
+				"get_input"
+			],
+			[
+				"pu",
+				"publish_blog"
+			],
+			[
+				"blog",
+				"blog_hash"
+			],
+			[
+				"curr",
+				"current_blog_post"
+			],
+			[
+				"au",
+				"author_name"
+			],
+			[
+				"fav_books",
+				"fav_books_movies"
+			],
+			[
+				"fav_book",
+				"fav_books_movies"
+			],
+			[
+				"o",
+				"owner_name"
+			],
+			[
+				"publish",
+				"publish_blog"
+			],
+			[
+				"save",
+				"save_blog"
+			],
+			[
+				"blo",
+				"blogger_name"
+			],
+			[
+				"num",
+				"num_of_posts"
+			],
+			[
+				"cla",
+				"cla	class .. < ParentClass .. initialize .. end"
+			],
+			[
+				"p",
+				"pet_name"
+			],
+			[
+				"cl",
+				"cla	class .. < ParentClass .. initialize .. end"
+			],
+			[
+				"method",
+				"method_variable"
+			],
+			[
+				"pla",
+				"play_again"
+			],
+			[
+				"pr",
+				"prt_string"
+			],
+			[
+				"check",
+				"check_magic_number"
+			],
+			[
+				"gre",
+				"greet_user"
+			],
+			[
+				"alwa",
+				"always_3"
+			],
+			[
+				"second",
+				"second_magic_number"
+			],
+			[
+				"thir",
+				"third_magic_number"
+			],
+			[
+				"se",
+				"second_magic_number"
+			],
+			[
+				"first",
+				"first_magic_number"
+			],
+			[
+				"if",
+				"ife	if … else … end"
+			],
+			[
+				"temp",
+				"temp_magic_number"
+			],
+			[
+				"pass",
+				"pass_number"
+			],
+			[
+				"add",
+				"add_number"
+			],
+			[
+				"ne",
+				"new_magic_number"
+			],
+			[
+				"magic",
+				"magic_number"
+			],
+			[
+				"magi",
+				"magic_number"
+			],
+			[
+				"mag",
+				"magic_number"
+			],
+			[
+				"arr",
+				"arr_birthdate"
+			],
+			[
+				"case",
+				"case_statement"
+			],
+			[
+				"y",
+				"Y"
+			],
+			[
+				"final",
+				"final_num"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 4261,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 2409,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Program Files (x86)/Adobe Photoshop CS6/PhotoshopPortable.ini",
+			"settings":
+			{
+				"buffer_size": 263,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/normalize.css",
+			"settings":
+			{
+				"buffer_size": 7708,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Ruby/Ruby.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Set Syntax: R Console"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Users/Mom/_dev/SkillCrush/SK101/101-sample-code-18.08/css/main.css",
+		"/C/Program Files (x86)/Adobe Photoshop CS6/Data/XMP.cfg",
+		"/C/Program Files (x86)/Adobe Photoshop CS6/unins000.dat",
+		"/D/Users/Mom/sites/ruby/ruby_challenges2/blog.rb",
+		"/D/Users/Mom/sites/ruby/rubyrabelle.github.io/css/rabelle3-style.css",
+		"/D/Users/Mom/sites/ruby/ruby_challenges2/webscrape.rb",
+		"/D/Users/Mom/_dev/sites/ruby/ruby_challenges/always_three.rb",
+		"/D/Users/Mom/_dev/sites/ruby/ruby_challenges/blog_workingversion.rb",
+		"/D/Users/Mom/Documents/ITSE1345/labs/Lab1.pdf",
+		"/D/Users/Mom/Documents/ITSE1345/labs/CH2/CH2_6_mccrea.txt",
+		"/C/Users/Mom/Downloads/Chapter01.zip",
+		"/D/Users/Mom/sites/ror_blueprint/sinatra_ar/mvc_sinatra/app/controllers/index_controller.rb",
+		"/D/Users/Mom/sites/ror_blueprint/sinatra_ar/numerology_app/index_mine.rb",
+		"/D/Users/Mom/sites/ror_blueprint/sinatra_ar/mvc_sinatra/app.rb",
+		"/D/Users/Mom/sites/ror_blueprint/sinatra_ar/numerology_app/views/index.erb",
+		"/D/Users/Mom/sites/ror_blueprint/sinatra_ar/numerology_app/views/form.erb",
+		"/D/Users/Mom/sites/ror_blueprint/sinatra_ar/mvc_sinatra/db/seeds.rb",
+		"/D/Users/Mom/sites/ror_blueprint/sinatra_ar/mvc_sinatra/app/models/person.rb",
+		"/D/Users/Mom/sites/ror_blueprint/sinatra_ar/mvc_sinatra/Gemfile",
+		"/D/Users/Mom/sites/ror_blueprint/sinatra_ar/mvc_sinatra/app/controllers/people_controller.rb",
+		"/D/Users/Mom/sites/ror_blueprint/sinatra_ar/mvc_sinatra/app/views/people/index.erb",
+		"/D/Users/Mom/sites/ror_blueprint/sinatra_ar/numerology_app/index.rb",
+		"/D/Users/Mom/sites/ror_blueprint/sinatra_ar/mvc_sinatra/solution-numerology-seeds/db/seeds.rb",
+		"/D/Users/Mom/sites/ruby/sinatra-mvc/db/migrate/20151021185632_create_people.rb",
+		"/D/Users/Mom/sites/ruby/sinatra-mvc/app/models/person.rb",
+		"/D/Users/Mom/sites/ruby/sinatra-mvc/Gemfile",
+		"/D/Users/Mom/sites/ruby/sinatra-mvc/config/database.yml",
+		"/D/Users/Mom/sites/ruby/sinatra-mvc/spec/people_spec.rb",
+		"/D/Users/Mom/sites/ror_blueprint/sinatra_ar/mvc_sinatra/app/controllers/index-controller.rb",
+		"/D/Users/Mom/sites/ruby/activerecord-template/config.rb",
+		"/D/Users/Mom/sites/ruby/activerecord-template/Gemfile.lock",
+		"/D/Users/Mom/sites/ruby/activerecord-template/Rakefile",
+		"/D/Users/Mom/sites/ruby/activerecord-template/db/migrate/20151021185632_create_people.rb",
+		"/D/Users/Mom/sites/ruby/activerecord-template/Gemfile",
+		"/C/Ruby21/lib/ruby/2.1.0/rubygems/ssl_certs/AddTrustExternalCARoot-2048.pem",
+		"/D/Users/Mom/sites/ruby/activerecord-template/person.rb",
+		"/D/Users/Mom/sites/ruby/numerology_app/views/index.erb",
+		"/D/Users/Mom/sites/ruby/numerology_app/views/form.erb",
+		"/D/Users/Mom/sites/ruby/numerology_app/views/newpage.erb",
+		"/D/Users/Mom/sites/ruby/sinatra/revised_webapp.rb",
+		"/D/Users/Mom/sites/ruby/numerology_app/numerology_extra_code",
+		"/D/Users/Mom/sites/ruby/numerology_app/views/layout.erb",
+		"/D/Users/Mom/sites/ruby/numerology_app/index_mine.rb",
+		"/D/Users/Mom/sites/ruby/numerology_app/index.rb",
+		"/D/Users/Mom/sites/ruby/numerology_app/sample-solution/sample-solution_error handling/numerology-error-handling/views/form.erb",
+		"/D/Users/Mom/sites/ruby/numerology_app/sample-solution/sample-solution_error handling/numerology-error-handling/index.rb",
+		"/D/Users/Mom/sites/ruby/numerology_app/sample-solution/numerology-with-templates/index.rb",
+		"/D/Users/Mom/sites/ruby/numerology_app/spec/numerology_with_templates_spec.rb",
+		"/D/Users/Mom/sites/ruby/numerology_app/sample-solution/numerology-with-templates/views/index.erb",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/numerology2.rb",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/numerology.rb",
+		"/D/Users/Mom/sites/ruby/numerology_app/spec/spec_helper.rb",
+		"/D/Users/Mom/sites/ruby/numerology_app/newpage.rb",
+		"/D/Users/Mom/sites/ruby/numerology_app/spec/numerology_web_app_spec.rb",
+		"/D/Users/Mom/sites/ruby/sinatra/index.rb",
+		"/D/Users/Mom/sites/ruby/sinatra/hello_world_spec.rb",
+		"/D/Users/Mom/sites/ruby/numerology_app/.rspec",
+		"/D/Users/Mom/sites/ruby/New folder/webapp.rb",
+		"/D/Users/Mom/sites/ruby/sinatra/webapp.rb",
+		"/D/Users/Mom/sites/ruby/sinatra/.rspec",
+		"/D/Users/Mom/sites/ruby/sinatra/Gemfile.lock",
+		"/C/DevKit/config.yml",
+		"/C/Ruby21/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.2/lib/rspec/core/runner.rb",
+		"/C/Ruby21/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.2/lib/rspec/core/configuration.rb",
+		"/C/Ruby21/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb",
+		"/C/Ruby21/lib/ruby/gems/2.1.0/gems/yahoo_weatherman-2.0.0/lib/yahoo_weatherman.rb",
+		"/C/Ruby21/lib/ruby/gems/2.1.0/gems/yahoo_weatherman-2.0.0/lib/yahoo_weatherman/response.rb",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/nokogiri.rb",
+		"/D/Users/Mom/sites/ruby/weather_app/test_weather.rb",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/hash_practice.rb",
+		"/D/Users/Mom/sites/ruby/weather_app/taylor.rb",
+		"/D/Users/Mom/sites/ruby/weather_app/weather.rb",
+		"/D/Users/Mom/sites/ruby/weather_app/weather2.rb",
+		"/D/Users/Mom/sites/ruby/weather_app/weather_app.rb",
+		"/C/DevKit/dk.rb",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/hash_blog2.rb",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/magic_8ball.rb",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/twilio.rb",
+		"/D/Users/Mom/sites/ruby/rubyrabelle.github.io/index.html",
+		"/D/Users/Mom/sites/ruby/skillcrush-104/index.html",
+		"/D/Users/Mom/sites/ruby/skillcrush-104/advice/rabelle-advice.html",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/weather_app.rb",
+		"/D/Users/Mom/sites/ruby/skillcrush-104/css/rabelle5-style.css",
+		"/D/Users/Mom/sites/ruby/skillcrush-104/css/rabelle4-style.css",
+		"/D/Users/Mom/sites/ruby/skillcrush-104/css/rabelle3-style.css",
+		"/D/Users/Mom/sites/ruby/skillcrush-104/css/rabelle2-style.css",
+		"/D/Users/Mom/sites/ruby/skillcrush-104/css/rabelle-style.css",
+		"/D/Users/Mom/sites/ruby/skillcrush-104/advice/advice-template.html",
+		"/D/Users/Mom/sites/ruby/skillcrush-104/advice/advice-rabelle.html",
+		"/D/Users/Mom/sites/ruby/rubyrabelle.github.io/new-index.html",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/love.rb",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/fizzbuzz.rb",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/oop2.rb",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/fav_foods.rb",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/hash_blog.rb",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/blog_workingversion.rb",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/cats2.rb",
+		"/D/Users/Mom/.ssh/id_rsa.pub",
+		"/D/Users/Mom/sites/ruby/skillcrush-104/ruby/rabelle.rb",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/blog3.rb",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/newblog.rb",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/ferret.rb",
+		"/D/Users/Mom/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/D/Users/Mom/AppData/Roaming/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/D/Users/Mom/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/D/Users/Mom/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/my_method2.rb",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/method_from_method.rb",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/always_3_method.rb",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/case_statement.rb",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/first_script.rb",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/always_three.rb",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/else_if.rb",
+		"/D/Users/Mom/first_script.rb"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"body",
+			"lora",
+			"indent",
+			"tab",
+			"cat"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"lizard"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 4261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3234,
+								3234
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1386.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/main.css",
+					"settings":
+					{
+						"buffer_size": 2409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2384,
+								2384
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2103.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Program Files (x86)/Adobe Photoshop CS6/PhotoshopPortable.ini",
+					"settings":
+					{
+						"buffer_size": 263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								263,
+								263
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/normalize.css",
+					"settings":
+					{
+						"buffer_size": 7708,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2412,
+								2412
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2115.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/D/Users/Mom/Documents/ITSE1345/DBCREATE.SQL"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 100.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,159 @@
+body {
+	font-family:Verdana, Arial, sans-serif;
+   background-color: #00005D;
+	background-image: linear-gradient(green, #00005D);
+	/*background-image: -moz-linear-gradient(top, #ffffff, #8fa5ce);*/
+	background-position: center, top;
+	
+	
+}
+
+#wrapper {
+	background-color: #b3c7e6;
+   width: 80%;
+	margin: 50px auto 75px;
+   max-width: 850px;
+	min-width: 500px;
+	box-shadow: 5px 5px 8px #050505;
+
+} 
+#leftcolumn {
+	float: left;
+	width: 150px;
+	padding-top: 20px;
+
+	/*border: solid black;*/
+} 
+#rightcolumn {
+	margin-left: 155px;
+	margin-top: 0;
+	margin-bottom: 0;
+   background-color: #ffffff;
+	padding: 20px;
+} 
+#header{
+	background-image: url('../img/header.png');
+	background-repeat: no-repeat;
+	background-color: #000033;
+	height: 180px;
+	background-size: 960px;
+}
+h1 {
+	padding: 130px 0 0 50px;
+	color:#fefefe;
+	text-shadow: 2px 2px 2px #000;
+}
+h2 {
+	color: #869dc7; 
+   font-family: arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+a:link {
+	color: darkgreen;
+}
+a:visited {
+	color: purple;
+}
+a:focus {
+	color:blue;
+}
+a:hover{
+	color: blue;
+}
+
+
+.content {
+	padding: 20px 20px 0 20px; 
+} 
+.floatright img {
+	margin: 10px;
+   float: right;
+	overflow: auto;
+}
+
+#footer {
+	background-color: #869dc7; 
+	font-size:90%;
+   text-align: center;
+	clear: right;
+   padding: 20px 0;
+}
+#nav ul{
+	list-style-type: none;
+	margin-left: -20px;
+}
+#nav a {
+	text-decoration: none;
+	line-height: 150%;
+}
+
+p {
+	margin:0;
+}
+#validation {
+	background-color: #ffffff;
+	margin: auto;
+	padding: 25px;
+	
+}
+/*----------------------------------------------------------*/
+/*-------------HOA BOARD -----------------------------------*/
+#hoa_board table  {
+	margin: auto;
+	border: 1px solid #5c743d;
+	width: 600px;
+	border-spacing: 0;
+}
+#hoa_board td, th  {
+	border: 1px solid #5c743d;
+	padding: 5px;
+	font-family: Arial, sans-serif;
+}
+#hoa_board caption {
+	font-family: Verdana, sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	padding-bottom: 5px;
+}
+#hoa_board td:nth-of-type(even) {
+	text-align: center;
+}
+#hoa_board tr:first-of-type  {
+	background-color: #666;
+	color: #eaeaea;
+}
+#hoa_board tr:nth-of-type(even) {
+	background-color: #eaeaea;
+}
+
+/*----------------------------------------------------------*/
+/*-------------amenities -----------------------------------*/
+#pool table  {
+	margin: auto;
+	border: 1px solid #5c743d;
+	width: 60%;
+	border-spacing: 0;
+}
+#pool img {
+	float: right;
+	width: 35%;
+	padding: 10px;
+	overflow: auto;
+	box-shadow: 5px 5px 8px #000000;
+}
+#pool td, th {
+	border: 1px solid #5c743d;
+	padding: 5px;
+	font-family: Arial, sans-serif;
+}
+#pool td {
+	width: 30%;
+	text-align: center;
+}
+#pool tr:first-of-type  {
+	background-color: #666;
+	color: #eaeaea;
+}

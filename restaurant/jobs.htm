@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+      <title>
+            Big Wave Dave's Hawaiian BBQ
+      </title>    
+      <meta charset="utf-8" />
+      <link href="https://fonts.googleapis.com/css?family=Sriracha" rel="stylesheet"> 
+      <link rel="stylesheet" href="css/restaurant.css">
+      
+      <script type="text/javascript" src="../HTML/assets/plugins/jquery/jquery-2.2.3.min.js"></script>
+      <script type="text/javascript" src="restaurant.js"></script>
+    
+</head>
+
+<body>
+      <div class="full-width"><!--page-->
+            
+            <div id="header_inc"></div><!--include the header -->
+            
+            <div id="content"><!--content -->
+                  <div id="application">
+             
+                        <h2>Job Application</h2>
+                        <form action="app_processor.html" method="get" enctype="application/x-www-form-urlencoded" onsubmit="return confirmSubmit();" onreset="return confirmReset();">
+
+                              <table>
+                                    <tr>
+                                          <td >
+                                                <h3>Application Information</h3>
+                                                <p>
+                                                      First Name:<br/>
+                                                      <input type="text" name="firstname" size="56" />
+                                                </p>
+                                                <p>
+                                                      Last Name:<br/>
+                                                      <input type="text" name="lastname" size="56" />
+                                                </p>
+                                                <p>
+                                                      Address<br/>
+                                                      <input type="text" name="address" size="56" />
+                                                </p>
+                                                <p>
+                                                      City, State, Zip<br/>
+                                                      <input type="text" name="city" size="34" />
+                                                      <input type="text" name="state" size="2" maxlength="2" />
+                                                      <input type="text" name="zip" size="10" maxlength="10" onblur="return checkForNumber(this.value);" />
+                                                </p>
+
+                                                <p>Telephone</p>
+                                                <p>(<input type="text" name="area" size="3" maxlength="3" onblur="return checkForNumber(this.value);" />)
+                                                <input type="text" name="exchange" size="3" maxlength="3" onblur="return checkForNumber(this.value);" /> -
+                                                <input type="text" name="phone" size="4" maxlength="4" onblur="return checkForNumber(this.value);" /></p>
+                                                
+                                                <p>Email Address<br />
+                                                <input type="text" name="email" size="50" /></p>
+                                                <p>Confirm Email Address<br />
+                                                <input type="text" name="email_confirm" size="50" onblur="confirmEmail();" /></p>                                   
+                                          </td>
+                                          <td>
+                                          <h3>What type of employment are you looking for?</h3>
+                                          <table>
+                                                <tr>                 
+                                                      <td><input type="radio" name="employment" value="fulltime" />Full Time</td>
+                                                      <td><input type="radio" name="employment" value="partime" />Part Time</td>
+                                                      <td><input type="radio" name="employment" value="temp" />Temporary/Seasonal</td>
+                                                </tr>                                  
+                                          </table>
+                                          <br>
+                              
+                                          <h3>What position are you applying for?</h3>
+                                          <p><select name="position">
+                                                <option value="none" label="none"></option>
+                                                <option value="host">Host Staff</option>
+                                                <option value="server">Server</option>
+                                                <option value="kitchen">Kitchen Staff</option>
+                                                <option value="chef">Cook/Chef</option>
+                                                <option value="mgmt">Supervisor</option>
+                                                <option value="entertainment">Entertainment</option>
+                                                <option value="security">security</option>
+                                          </select></p>
+                              
+                                          <h3>Please describe your qualifications (or paste resume):</h3>
+                                          <textarea name="resume" id="resume" cols="60" rows="10" maxlength="500"></textarea>
+                                         
+                                          
+                                          <!-- submit and reset buttons -->
+                                          <p><input type="submit" value="Submit Application" />&nbsp;
+                                          <input type="reset" /></p>
+                                    </tr>
+                              </table>
+                        </form>
+                  </div><!--end application-->  
+                              
+            <div id="footer_inc"></div><!--include the footer -->
+      
+            </div><!--end content-->
+      </div><!--end page -->
+      
+</body>
+</html>

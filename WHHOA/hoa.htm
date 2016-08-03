@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+      <title>
+            Whispering Hollow
+      </title>    
+      <meta charset="utf-8" />
+      <link rel="stylesheet" href="css/wh_style.css">
+      <!-- This is where your link tag goes when linking to an external style sheet. -->
+ 
+      <!--This is the format you will use when entering JavaScript -->    
+      <script type="text/javascript">
+            /* <![CDATA[ */
+
+            var r_open =  "<tr><td>";
+            var r_close = "</td></tr>";
+            var td = "</td><td>";
+            var cnt_role = new Array("Goodwin Management", "HOA President", "HOA Vice President",
+                                    "HOA Treasurer", "HOA Secretary", "HOA Director");
+            var cnt_name = new Array("Jim Smitherman", "Bill Creager", "Aaron Miller",
+                                    "Cassandra Conway", "Stacy Morgan", "Jody Faulkner");
+            var cnt_info = new Array("512-502-2114", "bill.creager@gmail.com","atmil@gmail.com",
+                                     "pazgrl@gmail.com", "stacy.morgan@austin.rr.com", "bookgirl261@gmail.com" );
+ 
+           function buildRow(x) {
+            tbl_row = r_open + cnt_role[x] + td + cnt_name[x] + td + cnt_info[x] + r_close;
+            return tbl_row;
+           }
+
+            /* ]]> */
+      </script>        
+</head>
+
+<body>
+      <div id="wrapper">
+            <div id="header">
+                  <h1>Whispering Hollow HOA</h1>
+            </div><!--header-->
+            <div id="leftcolumn">
+                  <div id="nav">
+                  <ul>                                  
+                        <li><a href="home.htm">Home</a></li>
+                        <li><a href="hoa.htm">HOA</a></li>
+                        <li><a href="amenities.htm">Amenities</a></li>
+                        <li><a href="contact.htm">Get Involved</a></li>
+                        <li><a href="docs.htm">Documents</a></li>
+                  </ul>
+                  </div><!--nav-->
+            </div>
+            <div id="rightcolumn">
+                                      
+                  <div id="content">
+                       <div id="hoa_board">
+                  <h2>HOA Board of Directors</h2>
+                  
+                  <table>
+                        <caption>HOA Board Members</caption>
+                        <tr>
+                              <th>Committee/Role</th>
+                              <th>Contact Name</th>
+                              <th>Contact Info</th>
+                        </tr>
+                       
+                        <script type="text/javascript">
+                        /* <![CDATA[ */
+                        document.write(buildRow(0));
+                        document.write(buildRow(1));
+                        document.write(buildRow(2));
+                        document.write(buildRow(3));
+                        document.write(buildRow(4));
+                        document.write(buildRow(5));
+
+                         /* ]]> */
+                        </script>
+                  </table>
+                                   
+            </div><!--hoa board-->
+            </div><!--content-->
+
+                  
+            </div><!--right column -->
+            <div id="footer"><!--footer-->
+                  <p><i><small>Copyright &copy; 2016 Whispering Hollow<br>
+                  <a href="mailto:rabelle.rouser@gmail.com">rabelle.rouser@gmail.com</a></small></i></p>
+            </div>
+            <div id="validation">
+                  <!-- external javascript for validation -->  
+                  <script type="text/javascript" src="../validation.js">
+                  </script>
+            </div> 
+      </div><!--wrapper-->
+
+</body>
+</html>

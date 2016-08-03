@@ -1,0 +1,105 @@
+/***************BASE STYLES ****************/
+
+body{
+	font-family: sans-serif;
+}
+
+.full-width{
+	width: 960px;
+	margin: 0 auto;
+	/*padding: 15px;*/
+	border: hidden;
+}
+
+.half-width{
+	width: 50%;
+	float: left;
+	/*border: 1px solid black;*/
+}
+/*************** HEADER ****************/
+header{
+	height: auto;
+	background-image: url("../img/banner_kids.png");
+	background-size: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: solid white;
+
+}
+
+header h1 {
+	width: 960px;
+	clear: both;
+	font-family: cursive;
+	font-size: 72px;
+	line-height: 80px;
+	color: #000000;
+	padding-left: 30px;
+}
+
+nav .full-width{
+	padding: 0;
+}
+nav ul li{
+	display:inline-block;
+	float: right;
+	
+}
+nav ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px;
+	color: #828282;
+	padding-right: 25px;
+}
+
+
+
+
+/* mouse over link */
+a:hover {
+    color: purple;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+.section{
+	
+	padding-bottom: 30px;
+	
+}
+table {
+	width: 100%;
+	
+}
+table td {
+	vertical-align: center;
+}
+
+#img_bar img{
+	display: inline-block;
+	height: 145px;
+	float: left;
+	margin: 0px;
+
+}
+#faq img{
+	height: 225px;
+	float: left;
+	margin-right: 15px;
+}
+
+#validation table{
+	width: auto;
+}
+
+li {
+	margin-bottom: 5px;
+}
+
+dd {
+	margin-bottom: 10px;
+}

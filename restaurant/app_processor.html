@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+      <title>
+            Big Wave Dave's Hawaiian BBQ
+      </title>    
+      <meta charset="utf-8" />
+      <link href="https://fonts.googleapis.com/css?family=Sriracha" rel="stylesheet"> 
+      <link rel="stylesheet" href="css/restaurant.css">
+      
+      <!-- This is where your link tag goes when linking to an external style sheet. -->
+ 
+      <!--This is the format you will use when entering JavaScript -->    
+      <script type="text/javascript">
+            /* <![CDATA[ */
+
+
+            /* Javascript goes here */
+
+            /* ]]> */
+      </script>        
+</head>
+
+<body>
+      <div class="full-width"><!--page-->
+            <div><!--header-->
+                <h1><span id="restaurant">Big Wave Dave's Hawaiian BBQ</span></h1>  
+            </div>                  
+
+                        <h2>
+                            Your form has been submitted!</h1>
+                        <h3>
+                            You entered the following data:</h2>
+
+                        <script type="text/javascript">
+                            /* <![CDATA[ */
+                            var formData = location.search;
+                            formData = formData.substring(1, formData.length);
+                            while (formData.indexOf("+") != -1) {
+	                            formData = formData.replace("+", " ");
+                            }
+                            formData = unescape(formData);
+                            var formArray = formData.split("&");
+                            document.write("<p>");
+                            for (var i=0; i < formArray.length; ++i) {
+	                            document.writeln(formArray[i] + "<br />");
+                            }
+                            document.write("</p>");
+                            /* ]]> */
+                        </script>
+
+            </div>
+                
+</body>
+</html>

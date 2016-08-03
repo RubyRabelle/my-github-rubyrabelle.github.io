@@ -1,0 +1,239 @@
+html {
+	font-size: 18px;
+}
+body {
+	margin: 0;
+}
+h1,
+h2,
+h3 {
+	color: #fff;
+	text-shadow: 0 0 5px #292929;
+}
+p {
+	max-width: 45em;
+	margin-bottom: 15px;
+	line-height: 1.6em;
+	color: #444;
+}
+.page-layout {
+	overflow: hidden;
+}
+.main-wrap {
+	max-width: 1000px;
+	margin: 45px auto;
+	padding: 0 15px;
+	font-family: 'Vollkorn', Georgia, serif;
+}
+.feature-wrap {
+	border-top: 2px solid #181818;
+	border-bottom: 2px solid #181818;
+}
+.feature-wrap .photo {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.feature-wrap .lead {
+	padding: 10% 0 30% 0;	
+	background-image: url(../img/lead.jpg);
+}
+.lead h1 {
+	font-family: 'Rye', cursive;
+	font-weight: 400;
+	font-size: 3.6em;
+	line-height: 1em;
+	text-transform: uppercase;
+	margin: 1% 10% 0 10%;
+}
+.lead h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.6em;
+	line-height: 1em;
+	text-transform: uppercase;
+	margin: 1% 10% 0 10%;
+}
+.lead h3 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 1.05em;
+	text-transform: uppercase;
+	margin: 0 10%;
+}
+	
+.intro {
+	font-size: 1.5em;
+	max-width: none;
+	margin: 70px 0 45px 0;
+	position: relative;
+}
+.intro:before,
+.intro:after {
+	font-size: 10em;
+	position: absolute;
+	color: #eee;
+	z-index: -1;
+}
+.intro:before {
+	content: '“';
+	left: -24px;
+	top: 60px;
+}
+.intro:after {
+	content: '”';
+	right: -20px;
+	bottom: -50px;
+}
+.callout {
+	width: 40%;
+	float: right;
+	margin: 0 0 1em 2em;
+	font-size: 1.7em;
+	line-height: 1.3em;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #4c4c4c;
+}
+.feature-wrap .panorama {
+	padding: 10% 0;
+	background-image: url(../img/panorama.jpg);	
+	-webkit-animation: moving-bg 20s linear infinite alternate;
+	-moz-animation: moving-bg 20s linear infinite alternate;
+	-o-animation: moving-bg 20s linear infinite alternate;
+	animation: moving-bg 20s linear infinite alternate;
+}
+.feature-wrap .stack {
+	padding: 55% 0;
+}
+.feature-wrap .stack-one {
+	background-image: url(../img/luau.jpg);
+}
+.feature-wrap .stack-two {
+	background-image: url(../img/coast.jpg);
+}
+.feature-wrap .stack-three {
+	background-image: url(../img/clouds.jpg);
+}
+.feature-wrap .text {
+	font­-family: 'Rye', sans-­serif; 
+	font­size: 3em;
+	line-­height: 1.1em;
+	color: #f1f1f1;
+	text-­align: center;
+	margin: 0 25%;
+	text­-shadow: 0 0 4px rgba(0,0,0, 0.5);
+}
+.feature-wrap .stack .text.left {
+	text-align: left;
+	margin: 0 0 0 10%;
+}
+.feature-wrap .stack .text.right{
+	text-align: left;
+	margin: 0 0 0 50%;
+}
+.zoom {
+	float: right;
+	width: 40%;
+	margin: 7px 20px 15px 7px;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+.zoom:hover {
+	width: 100%;
+	margin: 15px 0;
+}
+.video-wrap {
+	padding-top: 56.25%;
+	position: relative;
+}
+.video-wrap iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;	
+}
+@media (max-width: 1024px) {
+	.feature-wrap .photo {
+		background-attachment: scroll;
+		background-position: center center;
+	}
+	.feature-wrap .text {
+		font-size: 2em;
+	}
+	.feature-wrap .panorama {
+		padding: 15% 0;
+	}
+	.zoom {
+		width:100%;
+		margin: 0 0 25px 0;
+	}
+	.zoom:hover {
+		margin: 0 0 25px 0;
+	}
+}
+@media (max-width: 850px) {
+	.feature-wrap .text {
+		font-size: 1.5em;
+		margin: 0 5%;
+	}
+	.feature-wrap .panorama {
+		padding: 20% 0;
+	}
+	.feature-wrap .stack .text,
+	.feature-wrap .stack .text.right,
+	.feature-wrap .stack .text.left {
+		width: auto;
+		margin: 0 5%;
+		font-size: 3.5em;
+		text-align: center;
+	}
+}
+@media (max-width: 600px) {
+	.callout {
+		float: none;
+		margin: 0;
+		width: auto;
+	}
+	.feature-wrap .stack .text,
+	.feature-wrap .stack .text.right,
+	.feature-wrap .stack .text.left {
+		font-size: 2.5em;
+	}
+}
+
+@-webkit-keyframes moving-bg {
+	0% {
+		background-position: 0 0 ;
+	}
+	100% {
+		background-position: 100% 0;
+	}
+}
+@-moz-keyframes moving-bg {
+	0% {
+		background-position: 0 0 ;
+	}
+	100% {
+		background-position: 100% 0;
+	}
+}
+@-o-keyframes moving-bg {
+	0% {
+		background-position: 0 0 ;
+	}
+	100% {
+		background-position: 100% 0;
+	}
+}
+@keyframes moving-bg {
+	0% {
+		background-position: 0 0 ;
+	}
+	100% {
+		background-position: 100% 0;
+	}
+}

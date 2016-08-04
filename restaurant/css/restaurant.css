@@ -1,0 +1,236 @@
+
+body {
+	font-family: Source Sans Pro, sans-serif;
+	font-family: 'Sriracha', cursive;
+	background-color: tan;
+	background-image: url('../img/sand_bkg.png');
+	margin-top: 0;
+}
+
+iframe {
+	border: 0;
+	width: 560px;
+	height: 315px;
+}
+p {
+	padding-left: 20px;
+}
+
+.full-width{
+	max-width: 960px;
+	margin: 0 auto;
+
+	border: hidden;
+	background-color: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h1{
+	background-image: url('../img/hula_hero.png');
+	background-color: #325ba5;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 100px;
+	padding-top: 200px;
+	text-align: right;
+	max-width: 960px;
+	min-width: 320px;
+	color: #325ba5;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-size: 2.2em;
+	font-family: 'Sriracha', cursive;
+	overflow: hidden;
+	border-spacing: 0;
+}
+#banner {
+	position: absolute;
+	top: 25px;
+	right: 150px;
+	z-index: 3;
+	
+}
+
+#restaurant {
+	background-color: white;
+	opacity: 0.75;
+	padding: 10px;
+	margin-bottom: 0;
+}
+
+
+
+
+h2{
+	background-color: #325ba5;
+	text-align: center;
+	color: #f9ce69;
+	text-transform: capitalize;
+	font-family: 'Sriracha', cursive;
+	font-weight: bold;
+	margin-top: 0;
+	padding-top: 0; 
+	border-spacing: 0; 
+}
+
+h3 {
+	color: #f60;
+	font-weight: lighter;
+	margin-top:0;
+	padding-left: 10px;
+}
+
+#nav ul {
+	background-image: url('../img/sand_bkg.png');
+	background-color: #f9ce69;
+	padding: 4px;
+	padding-left: 20px;
+	margin-top:0;
+	margin-bottom: 0;
+}
+#nav li {
+	display: inline-block;	
+	width: 19%;
+	text-align: center;
+	border-spacing: 0;
+
+
+}
+#nav a {
+	color: #325ba5;
+}
+#nav a:hover {
+    color: #ff2d05;
+}
+
+#application table {
+	width: 100%;
+	padding: 10px;
+	border: hidden;
+}
+#application td {
+	vertical-align: top;
+}
+
+
+#menu table  {
+	margin: auto;
+	clear: both;
+	width: 100%;
+	border-spacing: 0;
+	box-shadow: 0px 4px 8px  gray;
+	
+}
+#menu th{
+	background-color: #f60;
+	padding: 6px;
+	padding-left: 10px;
+	text-align: left;
+
+}
+#menu caption{
+	
+	background-color: #f9ce69;
+	font-size: 2.2em;
+	color: #325ba5;
+	padding: 6px;
+	box-shadow: 4px 1px 6px gray;
+}
+
+#menu td {
+	padding: 10px;
+	vertical-align: top;
+}
+#menu td:nth-of-type(1){
+	width: 30%;
+}
+
+#menu td:nth-of-type(2){
+	width: 50%;
+}
+#menu td:nth-of-type(3){
+	width: 20%;
+	
+	text-align: right;
+	padding-right: 40px;
+}
+
+#menu img{
+	width: 100%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border: 0;
+	border-spacing: 0;
+
+}
+.wp-caption-text{
+	color: gray;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	line-height: 17.15px;
+	border-spacing: 0;
+	margin-top: -10px;
+}
+
+#footer {
+	text-align: center;
+}
+
+#validation table {
+	box-shadow: none;
+	margin: 0;
+	border: none;
+	border-spacing: 0;
+	width: auto;
+}
+#validation td {
+	border: hidden;
+	width: auto;
+}
+.clearfix {
+	overflow: auto;
+}
+.info {
+	padding-left: 10px;
+}
+
+div.polaroid {
+  float: right;
+  width: 560px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 20px 20px 20px;
+}
+div.specials {
+  float: right;
+  width: 90%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 20px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+div.hibiscus img {
+	width: 50px;
+	float: left;
+	margin: -10px 10px 10px 0;
+	overflow: auto;
+}
+
+#nav a:hover {
+    color: #ff2d05;
+}
+
+div.tiki-bar {
+
+  width: 95%;
+
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 20px;
+  margin-right: 20px;
+}

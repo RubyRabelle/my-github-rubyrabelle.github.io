@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+      <title>
+            Big Wave Dave's Hawaiian BBQ
+      </title>    
+      <meta charset="utf-8" />
+      <link href="https://fonts.googleapis.com/css?family=Sriracha" rel="stylesheet"> 
+      <link rel="stylesheet" href="css/restaurant.css">
+
+  
+      <script type="text/javascript" src="../HTML/assets/plugins/jquery/jquery-2.2.3.min.js"></script>
+      <script type="text/javascript" src="restaurant.js"></script>
+
+
+</head>
+
+<body >
+      <div class="full-width"><!--page-->
+        <!--include the header -->
+        <div id="header_inc"></div>
+            
+          
+            
+            <div id="content"><!--content -->
+             
+                  <h2>Hawaiian BBQ Menu</h2>
+                  <div class="hibiscus">
+                  <img src="img/hibiscus2.png" alt="hibiscus flower">
+                  </div>
+                 <p>All dishes come with a side of sticky rice and freshly made bread.</p>
+                 <div id="menu">
+                  <form action="FormProcessor.html" method="get" enctype="application/x-www-form-urlencoded">
+                   <table>
+                        <caption><em>Big Wave Dave's Hawaiian BBQ  &amp; Tiki Bar<br>Dinner Menu</em>
+                          <p style="float:right; font-size:16px">Cart: $<input type="text" name="cart" size="10" value="0.00" readonly="readonly" style="text-align:right;" /><input type="button" value="Calculate" onclick="calculate()" />
+                            <input type="reset" style="text-align:right;" /></p></caption>
+                        <tr>
+                              <th>Description</th>
+                              <th></th>
+                              <th>Price / Qty</th>
+                             
+                        </tr>
+                        
+                        <tr>
+                            <td><h3>Rumaki with Pineapple</h3>
+                              <p>This rumaki combines the crunchiness of bacon and water chestnutes with the wonderful flavors of pineapple.</p>
+                            </td>
+                            <td><img src="img/rumaki.png" alt="image of pineapple rumaki from http://media.dish.allrecipes.com/wp-content/uploads/2016/05/1291543_Easy-Rumaki-with-Pineapple_Photo-by-lutzflcat.jpg">
+                              <p class="wp-caption-text">Rumaki with Pineapple | Photo by lutxflcat @ AllRecipes.com</p>
+                            </td>                              
+                            <td><label>$10.75 </label>
+                              <input type="text" name="rumaki" value="0" style="width: 5ch;" /> 
+                              
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><h3>Crab Rangoon</h3>
+                              <p>Crispy crab and cream cheese wontons. Sure to be addictive!</p>
+                            </td>
+                            <td><img src="img/crab_rangoon.png" alt="image of crab rangoon from http://media.dish.allrecipes.com/wp-content/uploads/2016/05/2712864_Chef-Johns-Crab-Randoon_Photo-by-Chef-John.jpg">
+                              <p class="wp-caption-text">Chef John's Crab Rangoon | Photo by Chef John @ AllRecipes.com</p>
+                            </td>
+                             <td><label>$12.00 </label>
+                             <input type="text"  name="crab" value="0" style="width: 5ch;" /> 
+                           </td>
+                        </tr>
+                        <tr>
+                            <td><h3>Coconut Shrimp</h3>
+                              <p>Jumbo shrimp rolled in a coconut beer batter and fried to a perfect golden brown. Comes with signature Hawaii Holly's dipping Sauce.</p>
+                            </td>
+                            <td><img src="img/coconut_shrimp.png" alt="photo of coconutshrimp from http://media.dish.allrecipes.com/wp-content/uploads/2016/05/693130_Coconut-Shrimp-I_Photo-by-Yan.jpg">
+                              <p class="wp-caption-text">Coconut Shrimp | Photo by Yan @ AllRecipes.com</p>
+                            </td>
+                            <td><label>$15.50 </label>
+                              <input type="text"  name="shrimp" value ="0" style="width: 5ch;" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><h3>Ono Spareribs</h3>
+                              <p>Tasty beef spareribs marinated in teryaki and black peppercorn.</p>
+                            </td>
+                            <td>
+                              <img src="img/spareribs.png" alt="image of spareribs from http://media.dish.allrecipes.com/wp-content/uploads/2016/05/720676_Ono-Spareribs_Photo-by-OkinawanPrincess.jpg">
+                            <p class="wp-caption-text">Ono Spareribs | Photo by OkinawanPrincess @ AllRecipes.com</p>
+                          </td>
+
+                            <td><label>$19.00 </label>
+                              <input type="text" name="ribs" value="0" style="width: 5ch;" /> 
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><h3>Aloha Chicken Burger</h3>
+                              <p>Luau on a bun! Marinated grilled chicken with provolone cheese and bacon on a hawaiian bun.</p>
+                            </td>
+                            <td><img src="img/chicken_burgers.png" alt="image of chicken burger from http://media.dish.allrecipes.com/wp-content/uploads/2016/05/2340003_Aloha-Chicken-Burgers_Photo-by-DIZ.jpg">
+                            <p class="wp-caption-text">Aloha Chicken Burgers | Photo by DIZ @ AllRecipes.com</p>
+                            </td>
+                            <td><label>$11.50 </label>
+                              <input type="text" name="burger" value="0" style="width: 5ch;" /> 
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><h3>Lomi Lomi</h3>
+                              <p>Classic salad of smoked salmon, tomato and onion.</p>
+                            </td>
+                            <td><img src="img/lomi_lomi.png" alt="image of lomi lomi from http://media.dish.allrecipes.com/wp-content/uploads/2016/05/Lomi_lomi_salmon_By-stu-spivack-via-Wikimedia-Commons.jpg">
+                              <p class="wp-caption-text">Lomi Lomi Salmon | Photo by spivack, via Wikimedia Commons @ AllRecipes.com</p>
+                            </td>
+                            <td><label>$9.50 </label>
+                              <input type="text" name="lomi" value="0" style="width: 5ch;" /> 
+
+                            </td>
+                        </tr>
+                       
+                  </table>
+                  </form>
+      
+      <div id="footer_inc"></div><!--include the footer -->
+      
+      </div><!--content-->
+      </div><!--end page -->
+      
+</body>
+</html>

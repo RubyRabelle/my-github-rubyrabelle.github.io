@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+      <title>
+            Whispering Hollow
+      </title>    
+      <meta charset="utf-8" />
+      <link rel="stylesheet" href="css/wh_style.css">
+      <!-- This is where your link tag goes when linking to an external style sheet. -->
+ 
+      <!--This is the format you will use when entering JavaScript -->    
+      <script type="text/javascript">
+            /* <![CDATA[ */
+
+var strArray = new Array(3);
+           strArray[0] = "<tr><td>";
+           strArray[1] = "</td><td>";
+           strArray[2] = "</td></tr>";
+           
+           var str_day = new Array("Sunday", "Monday", "Tuesday", "Wednesday","Thursday", "Friday", "Saturday");
+
+           
+           function writeMessage(x) {
+            (x==1) ? str_hrs = "Pool is closed on Monday": str_hrs="8am to 10pm";
+
+            message = "<tr><td>" + str_day[x] + "</td><td>" + str_hrs + "</td></tr>";
+            return message;
+           }
+
+            /* ]]> */
+      </script>        
+</head>
+
+<body>
+      <div id="wrapper">
+            <div id="header">
+                  <h1>Whispering Hollow HOA</h1>
+            </div><!--header-->
+            <div id="leftcolumn">
+                  <div id="nav">
+                  <ul>                                  
+                        <li><a href="home.htm">Home</a></li>
+                        <li><a href="hoa.htm">HOA</a></li>
+                        <li><a href="amenities.htm">Amenities</a></li>
+                        <li><a href="contact.htm">Get Involved</a></li>
+                        <li><a href="docs.htm">Documents</a></li>
+                  </ul>
+                  </div><!--nav-->
+            </div>
+            <div id="rightcolumn">
+                             <div id="content"><!--content -->
+             <div id="pool">
+                  <h2>Whispering Hollow Pool</h2>
+                  <h3>Hours of Operation:</h3>
+                  <img src="img/wh_pool.jpg" alt="image of pool">
+             <table>
+                <tr>
+                     <!--<th>Our Pool</th>-->
+                     <th>Day of the Week</th>
+                     <th>Hours of Operation</th>
+               </tr>
+                  <!--<td rowspan=7><img src="img/wh_pool.jpg" alt="image of pool"></td>-->
+
+                  <script type="text/javascript">
+                  /* <![CDATA[ */
+                  document.write(writeMessage(0));
+                  document.write(writeMessage(1));
+                  document.write(writeMessage(2));
+                  document.write(writeMessage(3));
+                  document.write(writeMessage(4));
+                  document.write(writeMessage(5));
+                  document.write(writeMessage(6));
+                   /* ]]> */
+                  </script>
+                  
+             </table>
+            </div><!--pool-->
+            </div><!--content-->
+                  
+            </div><!--right column -->
+            <div id="footer"><!--footer-->
+                  <p><i><small>Copyright &copy; 2016 Whispering Hollow<br>
+                  <a href="mailto:rabelle.rouser@gmail.com">rabelle.rouser@gmail.com</a></small></i></p>
+            </div>
+            <div id="validation">
+                  <!-- external javascript for validation -->  
+                  <script type="text/javascript" src="../validation.js">
+                  </script>
+            </div> 
+      </div><!--wrapper-->
+
+</body>
+</html>

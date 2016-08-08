@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8" />
+		<title>Rabelle Portfolio Pages</title>
+		<meta name="keywords" content="HTML5,CSS3,Template" />
+		<meta name="description" content="" />
+		<meta name="Author" content="Dorin Grigoras [www.stepofweb.com]" />
+
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+		<!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+
+		<!-- CORE CSS -->
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		
+		<!-- THEME CSS -->
+		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+
+		<!-- PAGE LEVEL SCRIPTS -->
+		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme" />
+		<script type="text/javascript" src="assets/plugins/jquery/jquery-2.2.3.min.js"></script>
+		    <script> 
+		    $(function(){
+		      $("#nav_bar_inc").load("new_nav.html"); 
+		      $("#footer_inc").load("footer_inc.html");
+		    });
+		 </script> 
+	</head>
+
+	<!--
+		AVAILABLE BODY CLASSES:
+		
+		smoothscroll 			= create a browser smooth scroll
+		enable-animation		= enable WOW animations
+
+		bg-grey					= grey background
+		grain-grey				= grey grain background
+		grain-blue				= blue grain background
+		grain-green				= green grain background
+		grain-blue				= blue grain background
+		grain-orange			= orange grain background
+		grain-yellow			= yellow grain background
+		
+		boxed 					= boxed layout
+		pattern1 ... patern11	= pattern background
+		menu-vertical-hide		= hidden, open on click
+		
+		BACKGROUND IMAGE [together with .boxed class]
+		data-background="assets/images/boxed_background/1.jpg"
+	-->
+	<body class="smoothscroll enable-animation boxed" data-background="assets/images/boxed_background/4.jpg">
+
+		<!-- wrapper -->
+		<div id="wrapper">
+
+			<!-- 
+				AVAILABLE HEADER CLASSES
+
+				Default nav height: 96px
+				.header-md 		= 70px nav height
+				.header-sm 		= 60px nav height
+
+				.noborder 		= remove bottom border (only with transparent use)
+				.transparent	= transparent header
+				.translucent	= translucent header
+				.sticky			= sticky header
+				.static			= static header
+				.dark			= dark header
+				.bottom			= header on bottom
+				
+				shadow-before-1 = shadow 1 header top
+				shadow-after-1 	= shadow 1 header bottom
+				shadow-before-2 = shadow 2 header top
+				shadow-after-2 	= shadow 2 header bottom
+				shadow-before-3 = shadow 3 header top
+				shadow-after-3 	= shadow 3 header bottom
+
+				.clearfix		= required for mobile menu, do not remove!
+
+				Example Usage:  class="clearfix sticky header-sm transparent noborder"
+			-->
+			<div id="header" class="sticky clearfix">
+				<div id="nav_bar_inc"></div>
+
+
+			</div>
+
+
+			<!-- 
+				PAGE HEADER 
+				
+				CLASSES:
+					.page-header-xs	= 20px margins
+					.page-header-md	= 50px margins
+					.page-header-lg	= 80px margins
+					.page-header-xlg= 130px margins
+					.dark			= dark page header
+
+					.shadow-before-1 	= shadow 1 header top
+					.shadow-after-1 	= shadow 1 header bottom
+					.shadow-before-2 	= shadow 2 header top
+					.shadow-after-2 	= shadow 2 header bottom
+					.shadow-before-3 	= shadow 3 header top
+					.shadow-after-3 	= shadow 3 header bottom
+			-->
+			<section class="page-header page-header-xs">
+				<div class="container">
+
+					<h1>Jubiliee Austen</h1>
+					<span class="font-lato size-18 hidden-xs">SkillCrush 101 Project</span>
+
+					<ul class="page-options list-inline">
+						<li><a href="#" class="glyphicon glyphicon-menu-left"></a></li>
+						<li><a href="#" class="glyphicon glyphicon-th-large"></a></li>
+						<li><a href="#" class="glyphicon glyphicon-menu-right"></a></li>
+					</ul>
+
+					<!-- page tabs 
+					<ul class="page-header-tabs list-inline">
+						<li class="active"><a href="portfolio-single-slider.html">Default</a></li>
+						<li><a href="portfolio-single-slider-2.html">Dark Title</a></li>
+						<li><a href="portfolio-single-slider-3.html">Dark Page</a></li>
+					</ul>
+					 /page tabs -->
+
+				</div>
+			</section>
+			<!-- /PAGE HEADER -->
+
+
+
+
+			<!-- Skill Crush 101-->
+			<section>
+				<div class="container">
+					 
+
+					<!-- OWL SLIDER -->
+					<div class="container">
+
+						<div class="owl-carousel buttons-autohide controlls-over nomargin" data-plugin-options='{"items": 1, "autoPlay": 3500, "autoHeight": false, "navigation": true, "pagination": false, "transitionStyle":"fade", "progressBar":"false"}'>
+							<div>
+								<img class="img-responsive" src="assets/images/mockups/sk101-1.png" alt="">
+							</div>
+							<div>
+								<img class="img-responsive" src="assets/images/mockups/sk101-3.png" alt="">
+							</div>
+							<div>
+								<img class="img-responsive" src="assets/images/mockups/sk101-4.png" alt="">
+							</div>
+						</div>
+
+					</div> 
+					<!-- /OWL SLIDER -->
+
+					
+				</div>
+			</section>
+			<!-- / -->
+
+
+
+			<!-- -->
+			<section>
+				<div class="container">
+
+					<div class="row nomargin">
+						
+						<div class="col-md-8 col-sm-8">
+
+							<!-- Subtitle -->
+							<div class="heading-title heading-border">
+								<h2>Skill Crush 1o1 Project <span>Details</span></h2>
+
+								<ul class="list-inline categories nomargin">
+									<li><a href="#">Photography</a></li>
+									<li><a href="#">Design</a></li>
+								</ul>
+
+							</div>
+							<!-- /Subtitle -->
+
+							<p>This was a project completed with SkillCrush 101.  The first class involved UX Design principles and the second applied those principles by coding the HTML and CCS to pixel-perfect match the design comp.</p>
+							<p class="font-lato size-18">This was my first review of HTML and CSS (since 2009) using current UX design techniques.</p>
+						
+						</div>
+
+						<div class="col-md-4 col-sm-4">
+						
+							<div class="panel panel-default">
+								<div class="panel-body">
+									
+									<p class="font-lato size-18">Integer posuere erat a ante venenatis dapibus posuere velit aliquet nulla sed consectetur.</p>
+
+									<ul class="portfolio-detail-list list-unstyled nomargin">
+										<li><span><i class="fa fa-user"></i>Author:</span> Rabelle Rouser</li>
+										<li><span><i class="fa fa-calendar"></i>Released:</span> January 2016</li>
+										<li><span><i class="fa fa-lightbulb-o"></i>Technologies:</span> UX / HTML / CSS </li>
+										<li><span><i class="fa fa-link"></i>Website:</span> <a href="http://rubyrabelle.github.io/website/index.html">rubyrabelle.github.io</a></li>
+									</ul>
+
+								</div>
+								
+								<div class="panel-footer">
+
+									<!-- Social Icons -->
+									<a href="#" class="social-icon social-icon-sm social-icon-transparent social-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
+
+										<i class="icon-facebook"></i>
+										<i class="icon-facebook"></i>
+									</a>
+
+									<a href="#" class="social-icon social-icon-sm social-icon-transparent social-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
+										<i class="icon-twitter"></i>
+										<i class="icon-twitter"></i>
+									</a>
+
+									<a href="#" class="social-icon social-icon-sm social-icon-transparent social-gplus" data-toggle="tooltip" data-placement="top" title="Google plus">
+										<i class="icon-gplus"></i>
+										<i class="icon-gplus"></i>
+									</a>
+
+									<a href="#" class="social-icon social-icon-sm social-icon-transparent social-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin">
+										<i class="icon-linkedin"></i>
+										<i class="icon-linkedin"></i>
+									</a>
+
+									<a href="#" class="social-icon social-icon-sm social-icon-transparent social-pinterest" data-toggle="tooltip" data-placement="top" title="Pinterest">
+										<i class="icon-pinterest"></i>
+										<i class="icon-pinterest"></i>
+									</a>
+									<!-- /Social Icons -->
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+			<!-- -->
+
+
+
+			<!-- -->
+			<section>
+				<div class="container">
+
+					<div class="heading-title heading-border">
+						<h3>Related <span>Projects</span></h3>
+						<p class="font-lato size-14">Lorem ipsum dolor sit amet.</p>
+					</div>
+
+					<!-- 
+						RELATED CAROUSEL 
+
+						controlls-over		= navigation buttons over the image 
+						buttons-autohide 	= navigation buttons visible on mouse hover only
+
+						owl-carousel item paddings
+							.owl-padding-0
+							.owl-padding-1
+							.owl-padding-2
+							.owl-padding-3
+							.owl-padding-6
+							.owl-padding-10
+							.owl-padding-15
+							.owl-padding-20
+					-->
+					<div class="text-center">
+						<div class="owl-carousel owl-padding-1 nomargin buttons-autohide controlls-over" data-plugin-options='{"singleItem": false, "items": "4", "autoPlay": 3500, "navigation": true, "pagination": false}'>
+							
+							<!-- item -->
+							<div class="item-box">
+								<figure>
+									<span class="item-hover">
+										<span class="overlay dark-5"></span>
+										<span class="inner">
+
+											<!-- lightbox -->
+											<a class="ico-rounded lightbox" href="assets/images/demo/mockups/1200x800/16-min.jpg" data-plugin-options='{"type":"image"}'>
+												<span class="fa fa-plus size-20"></span>
+											</a>
+
+											<!-- details -->
+											<a class="ico-rounded" href="portfolio-single-slider.html">
+												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+											</a>
+
+										</span>
+									</span>
+
+									<img class="img-responsive" src="assets/images/demo/mockups/600x399/16-min.jpg" width="600" height="399" alt="">
+								</figure>
+
+								<div class="item-box-desc">
+									<h3>Architect Project</h3>
+									<ul class="list-inline categories nomargin">
+										<li><a href="#">Architecture</a></li>
+										<li><a href="#">Design</a></li>
+									</ul>
+								</div>
+
+							</div>
+							<!-- /item -->
+
+							<!-- item -->
+							<div class="item-box">
+								<figure>
+									<span class="item-hover">
+										<span class="overlay dark-5"></span>
+										<span class="inner">
+
+											<!-- lightbox -->
+											<a class="ico-rounded lightbox" href="assets/images/demo/mockups/1200x800/4-min.jpg" data-plugin-options='{"type":"image"}'>
+												<span class="fa fa-plus size-20"></span>
+											</a>
+
+											<!-- details -->
+											<a class="ico-rounded" href="portfolio-single-slider.html">
+												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+											</a>
+
+										</span>
+									</span>
+
+									<img class="img-responsive" src="assets/images/demo/mockups/600x399/4-min.jpg" width="600" height="399" alt="">
+								</figure>
+
+								<div class="item-box-desc">
+									<h3>Architect Project</h3>
+									<ul class="list-inline categories nomargin">
+										<li><a href="#">Architecture</a></li>
+										<li><a href="#">Design</a></li>
+									</ul>
+								</div>
+
+							</div>
+							<!-- /item -->
+
+							<!-- item -->
+							<div class="item-box">
+								<figure>
+									<span class="item-hover">
+										<span class="overlay dark-5"></span>
+										<span class="inner">
+
+											<!-- lightbox -->
+											<a class="ico-rounded lightbox" href="assets/images/demo/mockups/1200x800/5-min.jpg" data-plugin-options='{"type":"image"}'>
+												<span class="fa fa-plus size-20"></span>
+											</a>
+
+											<!-- details -->
+											<a class="ico-rounded" href="portfolio-single-slider.html">
+												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+											</a>
+
+										</span>
+									</span>
+
+									<img class="img-responsive" src="assets/images/demo/mockups/600x399/5-min.jpg" width="600" height="399" alt="">
+								</figure>
+
+								<div class="item-box-desc">
+									<h3>Architect Project</h3>
+									<ul class="list-inline categories nomargin">
+										<li><a href="#">Architecture</a></li>
+										<li><a href="#">Design</a></li>
+									</ul>
+								</div>
+
+							</div>
+							<!-- /item -->
+
+							<!-- item -->
+							<div class="item-box">
+								<figure>
+									<span class="item-hover">
+										<span class="overlay dark-5"></span>
+										<span class="inner">
+
+											<!-- lightbox -->
+											<a class="ico-rounded lightbox" href="assets/images/demo/mockups/1200x800/6-min.jpg" data-plugin-options='{"type":"image"}'>
+												<span class="fa fa-plus size-20"></span>
+											</a>
+
+											<!-- details -->
+											<a class="ico-rounded" href="portfolio-single-slider.html">
+												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+											</a>
+
+										</span>
+									</span>
+
+									<img class="img-responsive" src="assets/images/demo/mockups/600x399/6-min.jpg" width="600" height="399" alt="">
+								</figure>
+
+								<div class="item-box-desc">
+									<h3>Architect Project</h3>
+									<ul class="list-inline categories nomargin">
+										<li><a href="#">Architecture</a></li>
+										<li><a href="#">Design</a></li>
+									</ul>
+								</div>
+
+							</div>
+							<!-- /item -->
+
+							<!-- item -->
+							<div class="item-box">
+								<figure>
+									<span class="item-hover">
+										<span class="overlay dark-5"></span>
+										<span class="inner">
+
+											<!-- lightbox -->
+											<a class="ico-rounded lightbox" href="assets/images/demo/mockups/1200x800/7-min.jpg" data-plugin-options='{"type":"image"}'>
+												<span class="fa fa-plus size-20"></span>
+											</a>
+
+											<!-- details -->
+											<a class="ico-rounded" href="portfolio-single-slider.html">
+												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+											</a>
+
+										</span>
+									</span>
+
+									<img class="img-responsive" src="assets/images/demo/mockups/600x399/7-min.jpg" width="600" height="399" alt="">
+								</figure>
+
+								<div class="item-box-desc">
+									<h3>Architect Project</h3>
+									<ul class="list-inline categories nomargin">
+										<li><a href="#">Architecture</a></li>
+										<li><a href="#">Design</a></li>
+									</ul>
+								</div>
+
+							</div>
+							<!-- /item -->
+
+							<!-- item -->
+							<div class="item-box">
+								<figure>
+									<span class="item-hover">
+										<span class="overlay dark-5"></span>
+										<span class="inner">
+
+											<!-- lightbox -->
+											<a class="ico-rounded lightbox" href="assets/images/demo/mockups/1200x800/8-min.jpg" data-plugin-options='{"type":"image"}'>
+												<span class="fa fa-plus size-20"></span>
+											</a>
+
+											<!-- details -->
+											<a class="ico-rounded" href="portfolio-single-slider.html">
+												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+											</a>
+
+										</span>
+									</span>
+
+									<img class="img-responsive" src="assets/images/demo/mockups/600x399/8-min.jpg" width="600" height="399" alt="">
+								</figure>
+
+								<div class="item-box-desc">
+									<h3>Architect Project</h3>
+									<ul class="list-inline categories nomargin">
+										<li><a href="#">Architecture</a></li>
+										<li><a href="#">Design</a></li>
+									</ul>
+								</div>
+
+							</div>
+							<!-- /item -->
+
+							<!-- item -->
+							<div class="item-box">
+								<figure>
+									<span class="item-hover">
+										<span class="overlay dark-5"></span>
+										<span class="inner">
+
+											<!-- lightbox -->
+											<a class="ico-rounded lightbox" href="assets/images/demo/mockups/1200x800/9-min.jpg" data-plugin-options='{"type":"image"}'>
+												<span class="fa fa-plus size-20"></span>
+											</a>
+
+											<!-- details -->
+											<a class="ico-rounded" href="portfolio-single-slider.html">
+												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+											</a>
+
+										</span>
+									</span>
+
+									<img class="img-responsive" src="assets/images/demo/mockups/600x399/9-min.jpg" width="600" height="399" alt="">
+								</figure>
+
+								<div class="item-box-desc">
+									<h3>Architect Project</h3>
+									<ul class="list-inline categories nomargin">
+										<li><a href="#">Architecture</a></li>
+										<li><a href="#">Design</a></li>
+									</ul>
+								</div>
+
+							</div>
+							<!-- /item -->
+
+							<!-- item -->
+							<div class="item-box">
+								<figure>
+									<span class="item-hover">
+										<span class="overlay dark-5"></span>
+										<span class="inner">
+
+											<!-- lightbox -->
+											<a class="ico-rounded lightbox" href="assets/images/demo/mockups/1200x800/10-min.jpg" data-plugin-options='{"type":"image"}'>
+												<span class="fa fa-plus size-20"></span>
+											</a>
+
+											<!-- details -->
+											<a class="ico-rounded" href="portfolio-single-slider.html">
+												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+											</a>
+
+										</span>
+									</span>
+
+									<img class="img-responsive" src="assets/images/demo/mockups/600x399/10-min.jpg" width="600" height="399" alt="">
+								</figure>
+
+								<div class="item-box-desc">
+									<h3>Architect Project</h3>
+									<ul class="list-inline categories nomargin">
+										<li><a href="#">Architecture</a></li>
+										<li><a href="#">Design</a></li>
+									</ul>
+								</div>
+
+							</div>
+							<!-- /item -->
+
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<!-- / -->
+
+
+
+		<div id="footer_inc"></div>
+
+		</div>
+		<!-- /wrapper -->
+
+
+		<!-- SCROLL TO TOP -->
+		<a href="#" id="toTop"></a>
+
+
+		<!-- PRELOADER -->
+		<div id="preloader">
+			<div class="inner">
+				<span class="loader"></span>
+			</div>
+		</div><!-- /PRELOADER -->
+
+
+		<!-- JAVASCRIPT FILES -->
+		<script type="text/javascript">var plugin_path = 'assets/plugins/';</script>
+		<script type="text/javascript" src="assets/plugins/jquery/jquery-2.2.3.min.js"></script>
+
+		<script type="text/javascript" src="assets/js/scripts.js"></script>
+
+	</body>
+</html>

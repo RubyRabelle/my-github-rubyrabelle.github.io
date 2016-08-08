@@ -6,7 +6,28 @@ $(function(){
 
 //calculate the total of items ordered off menu.html
 function calculate(){
-              
+    window.alert('calling calculate')
+var pet = [
+    ['File_001.jpeg', 'found', 'dog', 'Description', 'black', 'white'],
+    ['File_002.jpeg','lost', 'dog', 'Description', 'black'],
+    ['File_003.jpeg','lost', 'dog', 'Description', 'black', 'white']
+
+];
+for (j in pet){
+
+	for (i in pet[j])
+		window.alert(pet[j][i]);
+}
+
+
+    /*var pet = [
+    ['File_001.jpeg', 'lost', 'dog', 'Description', 'black', 'white'], 
+    ['File_002.jpeg','lost', 'dog' 'Description', 'black']
+    ];
+   	window.alert(pet[0][4]);*/
+
+    //var pet = new Array('File_002.jpeg','lost', 'dog', 'Mel got out again 555-1212', 'black'); 
+    //var animal[0] = new Array('File_002.jpeg','lost', 'dog', 'Mel got out again 555-1212', 'black'); 
 	var dish = new Array('Rumaki with Pineapple','Crab Rangoon','Coconut Shrimp', 'Ono Spareribs', 'Aloha Chicken Burger', 'Lomi Lomi');
 	var dish_name = new Array("rumaki", "crab", "shrimp", "ribs", "burger", "lomi")
 	var price = new Array(10.75, 12.00, 15.50, 19.00, 11.50, 9.50);

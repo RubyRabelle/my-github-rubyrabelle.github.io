@@ -30,7 +30,7 @@
 		<!-- REVOLUTION SLIDER -->
 		<link href="assets/plugins/slider.revolution/css/extralayers.css" rel="stylesheet" type="text/css" />
 		<link href="assets/plugins/slider.revolution/css/settings.css" rel="stylesheet" type="text/css" />
-		<script type="text/javascript" src="assets/plugins/jquery/jquery-2.2.3.min.js"></script>
+	<!--	<script type="text/javascript" src="assets/plugins/jquery/jquery-2.2.3.min.js"></script>
 		    <script> 
 		    $(function(){
 		      $("#nav_bar_inc").load("wh_nav.html"); 
@@ -39,7 +39,7 @@
 		    });
 
 		 </script> 
-	</head>
+	</head>-->
 
 	<!--
 		AVAILABLE BODY CLASSES:
@@ -96,10 +96,91 @@
 
 				Example Usage:  class="clearfix sticky header-sm transparent noborder"
 			-->
-			<div id="header" class="sticky transparent clearfix">
+
+
+
+			<<div id="header" class="sticky transparent clearfix">
+<!-- ***********************************************************************************************************-->			
+<!-- Navigation goes here -->
 			<!-- call header include -->
-			<div id="nav_bar_inc"></div>
-			
+			<!--<div id="nav_bar_inc"></div>--> 
+			<!-- removing jquery from top of page, its taking too long to load -->
+<!--TOP NAV-->
+<header id="topNav">
+					<div class="container">
+
+						<!-- Mobile Menu Button -->
+						<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+							<i class="fa fa-bars"></i>
+						</button>
+
+						<!-- BUTTONS -->
+						<ul class="pull-right nav nav-pills nav-second-main">
+
+						
+						</ul>
+						<!-- /BUTTONS -->
+
+						<!-- Logo -->
+						<a class="logo pull-left" href="index.html">
+							<img src="assets/images/logo_dark.png" alt="" />
+						</a>
+
+						<!-- 
+							Top Nav 
+							
+							AVAILABLE CLASSES:
+							submenu-dark = dark sub menu
+						-->
+
+
+						<div class="navbar-collapse pull-right nav-main-collapse collapse">
+							<nav class="nav-main">
+
+								<!--
+									NOTE
+									
+									For a regular link, remove "dropdown" class from LI tag and "dropdown-toggle" class from the href.
+									Direct Link Example: 
+
+									<li>
+										<a href="#">HOME</a>
+									</li>
+								-->					
+
+								<ul id="topMain" class="nav nav-pills nav-main">
+									<li><a href="index.html">ABOUT</a></li>
+									
+									<li><a href="wh_hoa_board.html">HOA BOARD</a></li>
+									
+									
+									<li class="dropdown"><!-- Amenities -->
+									<a class="dropdown-toggle" href="#">
+										AMENITIES
+									</a>
+									<ul class="dropdown-menu">
+													<li><a href="wh_pool.html">POOL</a></li>
+													<li><a href="wh_parks.html">PARKS</a></li>
+													<li><a href="wh_trails.html">WALKING TRAILS</a></li>
+										
+													
+												</ul>
+									<li><a href="wh_pets.html">PETS</a></li>
+									
+
+									
+									<li><a href="wh_pokemon.html">POKEMON</a></li>
+						
+								</ul>
+								</nav>
+							</div>
+
+						</div>
+				</header>
+				<!--/TOP NAV -->
+
+<!--/End of Nav -->
+<!-- ***********************************************************************************************************-->		
 			</div>
 
 
@@ -482,7 +563,7 @@
 
 		<!-- JAVASCRIPT FILES -->
 		<script type="text/javascript">var plugin_path = 'assets/plugins/';</script>
-		<script type="text/javascript" src="assets/plugins/jquery/jquery-2.2.3.min.js"></script>
+		<!--<script type="text/javascript" src="assets/plugins/jquery/jquery-2.2.3.min.js"></script>-->
 
 		<script type="text/javascript" src="assets/js/scripts.js"></script>
 		

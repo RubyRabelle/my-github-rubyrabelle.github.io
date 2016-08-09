@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8" />
+		<title>Whispering Hollow</title>
+		<meta name="keywords" content="HTML5,CSS3,Template" />
+		<meta name="description" content="Whispering HOllow HOA Website" />
+		<meta name="Author" content="Ruby Rabelle http://rubyRabelle.github.io" />
+
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+		<!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+
+		<!-- CORE CSS -->
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		
+		<!-- THEME CSS -->
+		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+
+		<!-- PAGE LEVEL SCRIPTS -->
+		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme" />
+		<script type="text/javascript" src="../HTML/assets/plugins/jquery/jquery-2.2.3.min.js"></script>
+		    <script> 
+		    $(function(){
+		      $("#nav_bar_inc").load("wh_nav.html"); 
+		      $("#footer_inc").load("whfooter.html");
+		      
+		    });
+		 </script> 
+  </head> 
+
+	</head>
+
+	<!--
+		AVAILABLE BODY CLASSES:
+		
+		smoothscroll 			= create a browser smooth scroll
+		enable-animation		= enable WOW animations
+
+		bg-grey					= grey background
+		grain-grey				= grey grain background
+		grain-blue				= blue grain background
+		grain-green				= green grain background
+		grain-blue				= blue grain background
+		grain-orange			= orange grain background
+		grain-yellow			= yellow grain background
+		
+		boxed 					= boxed layout
+		pattern1 ... patern11	= pattern background
+		menu-vertical-hide		= hidden, open on click
+		
+		BACKGROUND IMAGE [together with .boxed class]
+		data-background="../HTML/assets/images/boxed_background/1.jpg"
+	-->
+	<body class="smoothscroll enable-animation boxed" data-background="assets/images/backgrounds/4.jpg" >
+
+
+
+
+
+		<!-- wrapper -->
+		<div id="wrapper">
+
+			<!-- 
+				AVAILABLE HEADER CLASSES
+
+				Default nav height: 96px
+				.header-md 		= 70px nav height
+				.header-sm 		= 60px nav height
+
+				.noborder 		= remove bottom border (only with transparent use)
+				.transparent	= transparent header
+				.translucent	= translucent header
+				.sticky			= sticky header
+				.static			= static header
+				.dark			= dark header
+				.bottom			= header on bottom
+				
+				shadow-before-1 = shadow 1 header top
+				shadow-after-1 	= shadow 1 header bottom
+				shadow-before-2 = shadow 2 header top
+				shadow-after-2 	= shadow 2 header bottom
+				shadow-before-3 = shadow 3 header top
+				shadow-after-3 	= shadow 3 header bottom
+
+				.clearfix		= required for mobile menu, do not remove!
+
+				Example Usage:  class="clearfix sticky header-sm transparent noborder"
+			-->
+			<div id="header" class="sticky clearfix">
+
+			
+			<!-- call header include -->
+			<div id="nav_bar_inc"></div>				
+							
+									
+
+							
+
+					
+					
+
+
+		</div>
+			<!-- 
+				PAGE HEADER 
+				
+				CLASSES:
+					.page-header-xs	= 20px margins
+					.page-header-md	= 50px margins
+					.page-header-lg	= 80px margins
+					.page-header-xlg= 130px margins
+					.dark			= dark page header
+
+					.shadow-before-1 	= shadow 1 header top
+					.shadow-after-1 	= shadow 1 header bottom
+					.shadow-before-2 	= shadow 2 header top
+					.shadow-after-2 	= shadow 2 header bottom
+					.shadow-before-3 	= shadow 3 header top
+					.shadow-after-3 	= shadow 3 header bottom
+			-->
+			<section class="page-header">
+				<div class="container">
+
+					<h1>List of Portfolio Items</h1>
+
+					<!-- breadcrumbs -->
+					<ol class="breadcrumb">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Pages</a></li>
+						<li class="active">Blank Page</li>
+					</ol><!-- /breadcrumbs -->
+
+				</div>
+			</section>
+			<!-- /PAGE HEADER -->
+
+
+
+
+			<!-- -->
+			<section>
+				<div class="container">
+					<a href="#" target="_portfolio">Click</a> to Launch a Portfolio window.
+					<ul>
+						<li><a href="../Project1/project1.html">Rent a Kid</a></li>
+						<li><a href="../restaurant/project4.htm">Big Wave Dave's Hawaiian BBQ</a></li>
+					</ul>
+					<!-- 
+	MODAL ON LOAD 
+	
+	data-autoload="true" 			- load modal on page load
+	data-autoload-delay="2000"		- load after 2000 ms (1000ms = 1s)
+	
+	Please note, an unique ID is required.
+	localstorage use the ID to hide the modal, if used checked "Don't show this popup again"
+-->
+
+
+					
+				</div>
+			</section>
+			<!-- / -->
+
+
+		<div id="footer_inc"></div>
+
+			
+		</div>
+		<!-- /wrapper -->
+
+
+		<!-- SCROLL TO TOP -->
+		<a href="#" id="toTop"></a>
+
+
+		<!-- PRELOADER -->
+		<div id="preloader">
+			<div class="inner">
+				<span class="loader"></span>
+			</div>
+		</div><!-- /PRELOADER -->
+
+
+		<!-- JAVASCRIPT FILES -->
+		<script type="text/javascript">var plugin_path = '../HTML/assets/plugins/';</script>
+		<script type="text/javascript" src="assets/plugins/jquery/jquery-2.2.3.min.js"></script>
+		
+
+		<script type="text/javascript" src="assets/js/scripts.js"></script>
+		
+
+	</body>
+</html>

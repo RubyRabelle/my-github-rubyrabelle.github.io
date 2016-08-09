@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8" />
+		<title>All Pets Bulletin</title>
+		<meta name="keywords" content="HTML5,CSS3,Template" />
+		<meta name="description" content="All Pets Bulletin - List of lost and found pets" />
+		<meta name="Author" content="rubyrabelle.github.io" />
+
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+		<!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+
+		<!-- CORE CSS -->
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		
+		<!-- THEME CSS -->
+		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+
+		<!-- PAGE LEVEL SCRIPTS -->
+		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme" />
+
+		<script type="text/javascript" src="assets/plugins/jquery/jquery-2.2.3.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery/jquery-2.2.3.min.js"></script>
+		    <script> 
+		    $(function(){
+		      $("#header_inc").load("wh_nav.html"); 
+		      $("#footer_inc").load("wh_footer.html");
+		      
+		    });
+		 </script> 
+	</head>
+
+	<!--
+		AVAILABLE BODY CLASSES:
+		
+		smoothscroll 			= create a browser smooth scroll
+		enable-animation		= enable WOW animations
+
+		bg-grey					= grey background
+		grain-grey				= grey grain background
+		grain-blue				= blue grain background
+		grain-green				= green grain background
+		grain-blue				= blue grain background
+		grain-orange			= orange grain background
+		grain-yellow			= yellow grain background
+		
+		boxed 					= boxed layout
+		pattern1 ... patern11	= pattern background
+		menu-vertical-hide		= hidden, open on click
+		
+		BACKGROUND IMAGE [together with .boxed class]
+		data-background="assets/images/boxed_background/4.jpg"
+	-->
+	<body class="smoothscroll enable-animation boxed" data-background="assets/images/backgrounds/4.jpg">
+
+	
+
+		<!-- wrapper -->
+		<div id="wrapper">
+
+			<!-- 
+				AVAILABLE HEADER CLASSES
+
+				Default nav height: 96px
+				.header-md 		= 70px nav height
+				.header-sm 		= 60px nav height
+
+				.noborder 		= remove bottom border (only with transparent use)
+				.transparent	= transparent header
+				.translucent	= translucent header
+				.sticky			= sticky header
+				.static			= static header
+				.dark			= dark header
+				.bottom			= header on bottom
+				
+				shadow-before-1 = shadow 1 header top
+				shadow-after-1 	= shadow 1 header bottom
+				shadow-before-2 = shadow 2 header top
+				shadow-after-2 	= shadow 2 header bottom
+				shadow-before-3 = shadow 3 header top
+				shadow-after-3 	= shadow 3 header bottom
+
+				.clearfix		= required for mobile menu, do not remove!
+
+				Example Usage:  class="clearfix sticky header-sm transparent noborder"
+			-->
+			<div id="header" class="sticky clearfix">
+
+<!-- ********************************************************************************************************************** -->
+
+<!-- ******  Navigation  Include-->
+			<div id="header_inc"></div>
+
+<!-- ********************************************************************************************************************** -->
+
+			</div>
+
+
+			<!-- 
+				PAGE HEADER 
+				
+				CLASSES:
+					.page-header-xs	= 20px margins
+					.page-header-md	= 50px margins
+					.page-header-lg	= 80px margins
+					.page-header-xlg= 130px margins
+					.dark			= dark page header
+
+					.shadow-before-1 	= shadow 1 header top
+					.shadow-after-1 	= shadow 1 header bottom
+					.shadow-before-2 	= shadow 2 header top
+					.shadow-after-2 	= shadow 2 header bottom
+					.shadow-before-3 	= shadow 3 header top
+					.shadow-after-3 	= shadow 3 header bottom
+			-->
+			<section class="page-header dark page-header-xs">
+				<div class="container">
+
+					<h1>DID YOUR PET GET OUT?</h1>
+					<p>Whispering Hollow offers a bulletin board for our use by our neighborhood (and surrounding areas) to notify area residents of lost and found animals. Search below by status, species, or color.</p>
+					
+
+					
+				</div>
+			</section>
+			<!-- /PAGE HEADER -->
+
+<!-- ********************************************************************************************************************** -->
+
+<!-- ******  Content Section -->
+
+<!-- ********************************************************************************************************************** -->
+
+
+			<!-- -->
+			<section>
+				<div class="container">
+
+					<ul id="portfolio_filter" class="nav nav-pills margin-bottom-60">
+						<li class="filter active"><a data-filter="*" href="#">All</a></li>
+						<li class="filter"><a data-filter=".dog" href="#">Dogs</a></li>
+						<li class="filter"><a data-filter=".cat" href="#">Cats</a></li>
+						<li class="filter"><a data-filter=".lost" href="#">Lost</a></li>
+						<li class="filter"><a data-filter=".found" href="#">Found</a></li>
+						<li class="filter"><a data-filter=".black" href="#">Black</a></li>
+						<li class="filter"><a data-filter=".white" href="#">White</a></li>
+						<li class="filter"><a data-filter=".brown" href="#">Brown</a></li>
+					
+						<li class="filter"><a data-filter=".orange" href="#">Orange</a></li>
+						<li class="filter"><a data-filter=".gray" href="#">Gray</a></li>
+
+					</ul>
+
+					<div id="portfolio" class="clearfix portfolio-isotope portfolio-isotope-4">
+
+
+						<div class="portfolio-item dog found black white"><!-- item -->
+
+							<div class="item-box" >
+								<figure>
+									<span class="item-hover">
+										<span class="overlay dark-5"></span>
+										<span class="inner">
+
+											<!-- lightbox -->
+											<a class="ico-rounded lightbox" href="assets/images/animals/File_001.jpeg" data-plugin-options='{"type":"image"}'>
+												<span class="fa fa-plus size-20"></span>
+											</a>
+
+											<!-- details -->
+											<a class="ico-rounded" href="report_found.html">
+												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+											</a>
+
+										</span>
+									</span>
+
+									<img class="img-responsive" src="assets/images/animals/File_001.jpeg" width="600" height="399" alt="">
+								</figure>
+
+								<div class="item-box-desc">
+									<h3>Found</h3>
+									<ul class="list-inline categories nomargin">
+										<li><a href="#">Dog</a></li>
+										<li><a href="#">Black</a></li>
+										<li><a href="#">White</a></li>
+									</ul>
+									
+								</div>
+
+							</div>
+
+						</div><!-- /item -->
+
+
+						<div class="portfolio-item dog lost black"><!-- item -->
+
+							<div class="item-box">
+								<figure>
+									<span class="item-hover">
+										<span class="overlay dark-5"></span>
+										<span class="inner">
+
+											<!-- lightbox -->
+											<a class="ico-rounded lightbox" href="assets/images/animals/File_002.jpeg" data-plugin-options='{"type":"image"}'>
+												<span class="fa fa-plus size-20"></span>
+											</a>
+
+											<!-- details -->
+											<a class="ico-rounded" href="report_found.html">
+												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+											</a>
+
+										</span>
+									</span>
+
+									<img class="img-responsive" src="assets/images/animals/File_002.jpeg" width="600" height="399" alt="">
+								</figure>
+
+								<div class="item-box-desc">
+									<h3>Lost</h3>
+									<ul class="list-inline categories nomargin">
+										<li><a href="#">Dog</a></li>
+										<li><a href="#">Black</a></li>
+									</ul>
+								</div>
+
+							</div>
+
+						</div><!-- /item -->
+
+
+						<div class="portfolio-item dog lost black"><!-- item -->
+
+							<div class="item-box">
+								<figure>
+									<span class="item-hover">
+										<span class="overlay dark-5"></span>
+										<span class="inner">
+
+											<!-- lightbox -->
+											<a class="ico-rounded lightbox" href="assets/images/animals/File_003.jpeg" data-plugin-options='{"type":"image"}'>
+												<span class="fa fa-plus size-20"></span>
+											</a>
+
+											<!-- details -->
+											<a class="ico-rounded" href="report_found.html">
+												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+											</a>
+
+										</span>
+									</span>
+
+									<img class="img-responsive" src="assets/images/animals/File_003.jpeg" width="600" height="399" alt="">
+								</figure>
+
+								<div class="item-box-desc">
+									<h3>Lost</h3>
+									<ul class="list-inline categories nomargin">
+										<li><a href="#">Dog</a></li>
+										<li><a href="#">Black</a></li>
+									</ul>
+								</div>
+
+							</div>
+
+						</div><!-- /item -->
+
+
+						<div class="portfolio-item dog found brown white black"><!-- item -->
+
+							<div class="item-box">
+								<figure>
+									<span class="item-hover">
+										<span class="overlay dark-5"></span>
+										<span class="inner">
+
+											<!-- lightbox -->
+											<a class="ico-rounded lightbox" href="assets/images/animals/File_004.jpeg" data-plugin-options='{"type":"image"}'>
+												<span class="fa fa-plus size-20"></span>
+											</a>
+
+											<!-- details -->
+											<a class="ico-rounded" href="report_found.html">
+												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+											</a>
+
+										</span>
+									</span>
+
+									<img class="img-responsive" src="assets/images/animals/File_004.jpeg" width="600" height="399" alt="">
+								</figure>
+
+								<div class="item-box-desc">
+									<h3>Found</h3>
+									<ul class="list-inline categories nomargin">
+										<li><a href="#">Dog</a></li>
+										<li><a href="#">Black</a></li>
+										<li><a href="#">Brown</a></li>
+										<li><a href="#">White</a></li>
+									</ul>
+								</div>
+
+							</div>
+
+						</div><!-- /item -->
+
+
+						<div class="portfolio-item cat found white brown"><!-- item -->
+
+							<div class="item-box">
+								<figure>
+									<span class="item-hover">
+										<span class="overlay dark-5"></span>
+										<span class="inner">
+
+											<!-- lightbox -->
+											<a class="ico-rounded lightbox" href="assets/images/animals/File_005.jpeg" data-plugin-options='{"type":"image"}'>
+												<span class="fa fa-plus size-20"></span>
+											</a>
+
+											<!-- details -->
+											<a class="ico-rounded" href="report_found.html">
+												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+											</a>
+
+										</span>
+									</span>
+
+									<img class="img-responsive" src="assets/images/animals/File_005.jpeg" width="600" height="399" alt="">
+								</figure>
+
+								<div class="item-box-desc">
+									<h3>Found</h3>
+									<ul class="list-inline categories nomargin">
+										<li><a href="#">Cat</a></li>
+										<li><a href="#">White</a></li>
+										<li><a href="#">Brown</a></li>
+
+									</ul>
+								</div>
+
+							</div>
+
+						</div><!-- /item -->
+
+
+						<div class="portfolio-item cat lost gray"><!-- item -->
+
+							<div class="item-box">
+								<figure>
+									<span class="item-hover">
+										<span class="overlay dark-5"></span>
+										<span class="inner">
+
+											<!-- lightbox -->
+											<a class="ico-rounded lightbox" href="assets/images/animals/File_006.jpeg" data-plugin-options='{"type":"image"}'>
+												<span class="fa fa-plus size-20"></span>
+											</a>
+
+											<!-- details -->
+											<a class="ico-rounded" href="report_found.html">
+												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+											</a>
+
+										</span>
+									</span>
+
+									<img class="img-responsive" src="assets/images/animals/File_006.jpeg" width="600" height="399" alt="">
+								</figure>
+
+								<div class="item-box-desc">
+									<h3>Lost</h3>
+									<ul class="list-inline categories nomargin">
+										<li><a href="#">Cat</a></li>
+										<li><a href="#">Gray</a></li>
+									</ul>
+								</div>
+
+							</div>
+
+						</div><!-- /item -->
+
+
+						<div class="portfolio-item lost cat black orange white"><!-- item -->
+
+							<div class="item-box">
+								<figure>
+									<span class="item-hover">
+										<span class="overlay dark-5"></span>
+										<span class="inner">
+
+											<!-- lightbox -->
+											<a class="ico-rounded lightbox" href="assets/images/animals/File_008.jpeg" data-plugin-options='{"type":"image"}'>
+												<span class="fa fa-plus size-20"></span>
+											</a>
+
+											<!-- details -->
+											<a class="ico-rounded" href="report_found.html">
+												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+											</a>
+
+										</span>
+									</span>
+
+									<img class="img-responsive" src="assets/images/animals/File_008.jpeg" width="600" height="399" alt="">
+								</figure>
+
+								<div class="item-box-desc">
+									<h3>Lost</h3>
+									<ul class="list-inline categories nomargin">
+										<li><a href="#">Cat</a></li>
+										<li><a href="#">Black </a></li>
+										<li><a href="#">Orange</a></li>
+										<li><a href="#">White</a></li>
+									</ul>
+								</div>
+
+							</div>
+
+						</div><!-- /item -->
+
+
+						<div class="portfolio-item found dog black white"><!-- item -->
+
+							<div class="item-box">
+								<figure>
+									<span class="item-hover">
+										<span class="overlay dark-5"></span>
+										<span class="inner">
+
+											<!-- lightbox -->
+											<a class="ico-rounded lightbox" href="assets/images/animals/File_007.jpeg" data-plugin-options='{"type":"image"}'>
+												<span class="fa fa-plus size-20"></span>
+											</a>
+
+											<!-- details -->
+											<a class="ico-rounded" href="report_found.html">
+												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+											</a>
+
+										</span>
+									</span>
+									
+									<img class="img-responsive" src="assets/images/animals/File_007.jpeg" width="600" height="399" alt="">
+								</figure>
+
+								<div class="item-box-desc">
+									<h3>Found</h3>
+									<ul class="list-inline categories nomargin">
+										<li><a href="#">Dog</a></li>
+										<li><a href="#">Black</a></li>
+										<li><a href="#">White</a></li>
+									</ul>
+								</div>
+
+							</div>
+
+						</div><!-- /item -->
+
+
+						<div class="portfolio-item found dog white brown"><!-- item -->
+
+							<div class="item-box">
+								<figure>
+									<span class="item-hover">
+										<span class="overlay dark-5"></span>
+										<span class="inner">
+
+											<!-- lightbox -->
+											<a class="ico-rounded lightbox" href="assets/images/animals/File_009.jpeg" data-plugin-options='{"type":"image"}'>
+												<span class="fa fa-plus size-20"></span>
+											</a>
+
+											<!-- details -->
+											<a class="ico-rounded" href="report_found.html">
+												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+											</a>
+
+										</span>
+									</span>
+
+									
+													<img class="img-responsive" src="assets/images/animals/File_009.jpeg" width="600" height="399" alt="">
+											
+									</figure>
+
+									<div class="item-box-desc">
+										<h3>Found</h3>
+										<ul class="list-inline categories nomargin">
+											<li><a href="#">Dog</a></li>
+											<li><a href="#">White</a></li>
+										</ul>
+									</div>
+
+							</div>
+
+						</div><!-- /item -->
+
+
+						<div class="portfolio-item lost cat brown "><!-- item -->
+
+							<div class="item-box">
+								<figure>
+									<span class="item-hover">
+										<span class="overlay dark-5"></span>
+										<span class="inner">
+
+											<!-- lightbox -->
+											<a class="ico-rounded lightbox" href="assets/images/animals/File_010.jpeg" data-plugin-options='{"type":"image"}'>
+												<span class="fa fa-plus size-20"></span>
+											</a>
+
+											<!-- details -->
+											<a class="ico-rounded" href="report_found.html">
+												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+											</a>
+
+										</span>
+									</span>
+
+									<img class="img-responsive" src="assets/images/animals/File_010.jpeg" width="600" height="399" alt="">
+								</figure>
+
+								<div class="item-box-desc">
+									<h3>Lost</h3>
+									<ul class="list-inline categories nomargin">
+										<li><a href="#">Cat</a></li>
+										<li><a href="#">Brown</a></li>
+									</ul>
+								</div>
+
+							</div>
+
+						</div><!-- /item -->
+
+
+						<div class="portfolio-item found dog brown white black"><!-- item -->
+
+							<div class="item-box">
+								<figure>
+									<span class="item-hover">
+										<span class="overlay dark-5"></span>
+										<span class="inner">
+
+											<!-- lightbox -->
+											<a class="ico-rounded lightbox" href="assets/images/animals/File_011.jpeg" data-plugin-options='{"type":"image"}'>
+												<span class="fa fa-plus size-20"></span>
+											</a>
+
+											<!-- details -->
+											<a class="ico-rounded" href="report_found.html">
+												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+											</a>
+
+										</span>
+									</span>
+
+									<img class="img-responsive" src="assets/images/animals/File_011.jpeg" width="600" height="399" alt="">
+								</figure>
+
+								<div class="item-box-desc">
+									<h3>Found</h3>
+									<ul class="list-inline categories nomargin">
+										<li><a href="#">Dog</a></li>
+										<li><a href="#">Black</a></li>
+										<li><a href="#">Brown</a></li>
+										<li><a href="#">White</a></li>
+									</ul>
+								</div>
+
+							</div>
+
+						</div><!-- /item -->
+
+
+						<div class="portfolio-item found cat gray white"><!-- item -->
+
+							<div class="item-box">
+								<figure>
+									<span class="item-hover">
+										<span class="overlay dark-5"></span>
+										<span class="inner">
+
+											<!-- lightbox -->
+											<a class="ico-rounded lightbox" href="assets/images/animals/File_012.jpeg" data-plugin-options='{"type":"image"}'>
+												<span class="fa fa-plus size-20"></span>
+											</a>
+
+											<!-- details -->
+											<a class="ico-rounded" href="report_found.html">
+												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+											</a>
+
+										</span>
+									</span>
+
+									<img class="img-responsive" src="assets/images/animals/File_012.jpeg" width="600" height="399" alt="">
+								</figure>
+
+								<div class="item-box-desc">
+									<h3>Found</h3>
+									<ul class="list-inline categories nomargin">
+										<li><a href="#">Cat</a></li>
+										<li><a href="#">Gray</a></li>
+										<li><a href="#">White</a></li>
+									</ul>
+								</div>
+
+							</div>
+
+						</div><!-- /item -->
+
+
+						<div class="portfolio-item lost cat white orange"><!-- item -->
+
+							<div class="item-box">
+								<figure>
+									<span class="item-hover">
+										<span class="overlay dark-5"></span>
+										<span class="inner">
+
+											<!-- lightbox -->
+											<a class="ico-rounded lightbox" href="assets/images/animals/File_013.jpeg" data-plugin-options='{"type":"image"}'>
+												<span class="fa fa-plus size-20"></span>
+											</a>
+
+											<!-- details -->
+											<a class="ico-rounded" href="report_found.html">
+												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+											</a>
+
+										</span>
+									</span>
+
+									<img class="img-responsive" src="assets/images/animals/File_013.jpeg" width="600" height="399" alt="">
+								</figure>
+
+								<div class="item-box-desc">
+									<h3>Lost</h3>
+									<ul class="list-inline categories nomargin">
+										<li><a href="#">Cat</a></li>
+										<li><a href="#">White</a></li>
+										<li><a href="#">Orange</a></li>
+									</ul>
+								</div>
+
+							</div>
+
+						</div><!-- /item -->
+
+
+						<div class="portfolio-item found dog brown black"><!-- item -->
+
+							<div class="item-box">
+								<figure>
+									<span class="item-hover">
+										<span class="overlay dark-5"></span>
+										<span class="inner">
+
+											<!-- lightbox -->
+											<a class="ico-rounded lightbox" href="assets/images/animals/File_014.jpeg" data-plugin-options='{"type":"image"}'>
+												<span class="fa fa-plus size-20"></span>
+											</a>
+
+											<!-- details -->
+											<a class="ico-rounded" href="report_found.html">
+												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+											</a>
+
+										</span>
+									</span>
+
+									<img class="img-responsive" src="assets/images/animals/File_014.jpeg" width="600" height="399" alt="">
+								</figure>
+
+								<div class="item-box-desc">
+									<h3>Found</h3>
+									<ul class="list-inline categories nomargin">
+										<li><a href="#">Dog</a></li>
+										<li><a href="#">Brown</a></li>
+									</ul>
+								</div>
+
+							</div>
+
+						</div><!-- /item -->
+
+
+						<div class="portfolio-item found dog brown black white"><!-- item -->
+
+							<div class="item-box">
+								<figure>
+									<span class="item-hover">
+										<span class="overlay dark-5"></span>
+										<span class="inner">
+
+											<!-- lightbox -->
+											<a class="ico-rounded lightbox" href="assets/images/animals/File_016.jpeg" data-plugin-options='{"type":"image"}'>
+												<span class="fa fa-plus size-20"></span>
+											</a>
+
+											<!-- details -->
+											<a class="ico-rounded" href="report_found.html">
+												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+											</a>
+
+										</span>
+									</span>
+									<img class="img-responsive" src="assets/images/animals/File_016.jpeg" width="600" height="399" alt="">
+								</figure>
+
+								<div class="item-box-desc">
+									<h3>Found</h3>
+									<ul class="list-inline categories nomargin">
+										<li><a href="#">Dog</a></li>
+										<li><a href="#">Brown</a></li>
+										<li><a href="#">Black</a></li>
+										<li><a href="#">White</a></li>
+									</ul>
+								</div>
+
+							</div>
+
+						</div><!-- /item -->
+						<div class="portfolio-item lost dog brown black white"><!-- item -->
+
+							<div class="item-box">
+								<figure>
+									<span class="item-hover">
+										<span class="overlay dark-5"></span>
+										<span class="inner">
+
+											<!-- lightbox -->
+											<a class="ico-rounded lightbox" href="assets/images/animals/File_017.jpeg" data-plugin-options='{"type":"image"}'>
+												<span class="fa fa-plus size-20"></span>
+											</a>
+
+											<!-- details -->
+											<a class="ico-rounded" href="report_found.html">
+												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+											</a>
+
+										</span>
+									</span>
+									<img class="img-responsive" src="assets/images/animals/File_017.jpeg" width="600" height="399" alt="">
+								</figure>
+
+								<div class="item-box-desc">
+									<h3>Lost</h3>
+									<ul class="list-inline categories nomargin">
+										<li><a href="#">Dog</a></li>
+										<li><a href="#">Brown</a></li>
+										<li><a href="#">Black</a></li>
+										<li><a href="#">White</a></li>
+									</ul>
+								</div>
+
+							</div>
+
+						</div><!-- /item -->
+
+					</div>
+					
+				</div>
+			</section>
+			<!-- / -->
+
+
+
+
+<!-- ********************************************************************************************************************** -->
+
+<!-- ******  Footer Include file here-->
+		<div id="footer_inc"></div>
+
+<!-- ********************************************************************************************************************** -->
+
+		</div>
+		<!-- /wrapper -->
+
+
+		<!-- SCROLL TO TOP -->
+		<a href="#" id="toTop"></a>
+
+
+		<!-- PRELOADER -->
+		<div id="preloader">
+			<div class="inner">
+				<span class="loader"></span>
+			</div>
+		</div><!-- /PRELOADER -->
+
+
+		<!-- JAVASCRIPT FILES -->
+		<script type="text/javascript">var plugin_path = 'assets/plugins/';</script>
+		<script type="text/javascript" src="assets/plugins/jquery/jquery-2.2.3.min.js"></script>
+
+		<script type="text/javascript" src="assets/js/scripts.js"></script>
+		
+
+	</body>
+</html>

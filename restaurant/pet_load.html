@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+      <title>
+            Big Wave Dave's Hawaiian BBQ
+      </title>    
+      <meta charset="utf-8" />
+      <link href="https://fonts.googleapis.com/css?family=Sriracha" rel="stylesheet"> 
+      <link rel="stylesheet" href="css/restaurant.css">
+      
+      <!-- This is where your link tag goes when linking to an external style sheet. -->
+ 
+      <!--This is the format you will use when entering JavaScript -->    
+      <script type="text/javascript">
+            /* <![CDATA[ */
+
+			//calculate the total of items ordered off menu.html
+			function showPets(){
+			    window.alert('calling showpets')
+				var pet = [
+				    ['File_001.jpeg', 'found', 'dog', 'Description', 'black', 'white'],
+				    ['File_002.jpeg', 'lost', 'dog', 'Description', 'black'],
+				    ['File_003.jpeg', 'lost', 'dog', 'Description', 'black', 'white'],
+				    ['File_004.jpeg', 'lost', 'dog', 'Description', 'brown', 'black', 'white'],
+				    ['File_005.jpeg', 'found', 'cat', 'Description', 'brown', 'white'],
+				    ['File_006.jpeg', 'lost', 'cat', 'Description', 'gray'],
+				    ['File_007.jpeg', 'found', 'dog', 'Description', 'black', 'white'],
+					['File_008.jpeg', 'lost', 'cat', 'Description', 'black', 'orange', 'white'],
+					['File_009.jpeg', 'found', 'dog', 'Description', 'brown', 'white'],
+					['File_010.jpeg', 'lost', 'cat', 'Description',  'brown', 'white'],
+					['File_011.jpeg', 'found', 'dog', 'Description', 'black', 'brown', 'white'],
+					['File_012.jpeg', 'found', 'cat', 'Description', 'gray', 'white'],
+					['File_013.jpeg', 'lost', 'cat', 'Description', 'white', 'orange'],
+					['File_014.jpeg', 'found', 'dog', 'Description', 'brown', 'black'],
+					['File_016.jpeg', 'found', 'dog', 'Description', 'brown', 'black', 'white'],
+					['File_017.jpeg', 'lost', 'dog', 'Description', 'brown', 'white','black']
+
+				];
+				for (j in pet){
+
+					for (i in pet[j])
+						console.log(pet[j][i]);
+				}
+			}
+ 
+            var dish = new Array('Rumaki with Pineapple',"Crab Rangoon","Coconut Shrimp", "Ono Spareribs", "Aloha Chicken Burger", "Lomi Lomi");
+            
+            var desc = new Array(6);
+            desc[0] = "This rumaki combines the crunchiness of bacon and water chestnutes with the wonderful flavors of pineapple.";
+            desc[1] = "Crispy crab and cream cheese wontons. Sure to be addictive!";
+            desc[2] = "Jumbo shrimp rolled in a coconut beer batter and fried to a perfect golden brown. Comes with signature Hawaii Holly's dipping Sauce.";
+            desc[3] = "Tasty beef spareribs marinated in teryaki and black peppercorn.";
+            desc[4] = "Luau on a bun! Marinated grilled chicken with provolone cheese and bacon on a hawaiian bun.";
+            desc[5] = "Classic salad of smoked salmon, tomato and onion.";
+            
+            var price = new Array(10.75, 12.00, 15.50, 19.00, 11.50, 9.50);
+            var photo = new Array("img/rumaki.png", "img/crab_rangoon.png", "img/coconut_shrimp.png","img/spareribs.png","img/chicken_burgers.png", "img/lomi_lomi.png" );
+ 
+           function buildRow(x) {
+            tbl_row = "<tr><td><h3>" + dish[x] + "</h3><p>" + desc[x] + "</p></td><td><img src=" +photo[x]+ "><td> $" + price[x].toFixed(2) + "</td></tr>";
+            return tbl_row;
+           }
+
+          
+          
+           
+            /* ]]> */
+      </script>        
+</head>
+
+<body >
+      <div class="full-width"><!--page-->
+      
+            <div id="header"><!--header-->
+            
+                <h1><span id="restaurant">Big Wave Dave's Hawaiian BBQ</span></h1>
+                
+                
+            </div>                  
+          
+            <div id="nav">
+                  <ul>
+                        <li><a href="project2.htm">Our Restaurant</a></li>
+                        <li><a href="menu.htm">Menu</a></li>
+                        <li><a href="tiki.htm">Tiki Bar</a></li>
+                        <li><a href="location.htm">Location</a></li>
+                      
+                  </ul>
+                  
+            </div>
+            
+            <div id="content"><!--content -->
+             
+                  <h2>Hawaiian BBQ Menu</h2>
+                  <div class="hibiscus">
+                  <img src="img/hibiscus2.png" alt="hibiscus flower">
+                  </div>
+                 <p>All dishes come with a side of sticky rice and freshly made bread.</p>
+                 <div id="menu">
+                   <table>
+                        <caption><em>Big Wave Dave's Hawaiian BBQ  & Tiki Bar<br>Dinner Menu</em></caption>
+                        <tr>
+                              <th>Description</th>
+                              <th></th>
+                              <th>Price</th>
+                        </tr>
+                       
+                        <script type="text/javascript">
+                        /* <![CDATA[ */
+                        document.write(showPets());
+                        document.write(buildRow(1));
+                        document.write(buildRow(2));
+                        document.write(buildRow(3));
+                        document.write(buildRow(4));
+                        document.write(buildRow(5));
+
+                         /* ]]> */
+                        </script>
+                  </table>
+      
+      
+            <div id="footer"><!--footer-->
+                  <p><i><small>Copyright &copy; 2016 Big Wave Dave's<br>
+                  <a href="mailto:holly@mccrea.com">holly@mccrea.com</a></small></i></p>
+            </div>
+                 </div>
+      <div id="validation">
+      <!-- external javascript for validation -->  
+      <script type="text/javascript" src="../validation.js">
+      </script>
+      </div>
+      
+      </div><!--content-->
+      </div><!--end page -->
+      
+</body>
+</html>
+
+
+
+
+
+  

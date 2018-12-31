@@ -1,0 +1,92 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+		font-family: sans-serif;
+		margin: 0;
+	}
+	img {
+		max-width: 100%;
+	}
+	
+	h1 {	
+		font-family: 'Lily Script One', cursive;
+		color:#b5413b;	
+		font-size: 80px;
+	}
+	h2 {
+		font-family: 'Bree Serif', serif;
+		color:#b5413b;
+		font-size: 25px;
+		text-transform: uppercase;
+	}
+	h3 {
+		color: #b5413b;
+		font-size: 18px;
+	}
+	.attractions h3{
+		font-family: 'Bree Serif', serif;
+		color: #b5413b;
+		margin-top: 28px;
+	}
+	
+	p {
+		line-height: 30px;
+	}
+	a {
+		color: #bedd6e;	
+	}
+	a:hover {
+		color: #b7f41e;
+	}
+	.pull-quote {
+		font-family: 'Bree Serif', serif;
+		border-left: 3px solid #bedd6e;
+		padding-left: 25px;
+		color: #b5413b;
+		font-size: 22px;
+		line-height: 45px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.source {
+		background-color: #483a40;
+		padding: 30px;
+		color: #fff;
+		margin-top: 50px;
+		margin-bottom: 0;
+	}
+	.page-title {
+		background-color: #483a40;
+		background-image: url("../img/capital.jpg");
+		background-size: cover;
+		background-position: center;
+		padding: 15%;
+		text-align: center;
+		color: #fff;
+		margin-bottom: 20px;
+	}
+	.page-title p {
+		font-size: 25px;
+	}
+	.images-head {
+		border-top: 1px solid #bedd6e;
+		padding-top: 20px;
+		margin-top: 30px;
+		margin-bottom: 25px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+

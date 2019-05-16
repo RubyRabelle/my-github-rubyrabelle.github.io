@@ -87,7 +87,7 @@ $(document).ready(function() {
 		  ]
 	});
 	
-	$('.buttons-columnVisibility').on('dtClick', function(){
+	$('.buttons-columnVisibility').on('click.dtb', function(){
 	   alert('clicked');
 	});
 });

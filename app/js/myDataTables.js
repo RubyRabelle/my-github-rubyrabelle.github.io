@@ -86,4 +86,8 @@ $(document).ready(function() {
 			dtColVisButton
 		  ]
 	});
+	
+	$('.buttons-columnVisibility').on('dtClick', function(){
+	   alert('clicked');
+	});
 });

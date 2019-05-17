@@ -105,7 +105,7 @@ $(document).ready(function() {
 		alert('clicked4');
 		
 	});
-	$('.dt-dropdown-ims').on('click', function(){
+	$('span.dt-dropdown-ims').on('click', function(){
 	   console.log(this);
 		alert('span.ui-button-text');
 		

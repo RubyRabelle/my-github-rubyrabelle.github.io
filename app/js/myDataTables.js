@@ -115,4 +115,9 @@ $(document).ready(function() {
 		alert('ugh');
 		
 	});
+	$('body')
+		.on( 'click.dt-dropdown-ims', function (e) { 
+		console.log(e);
+		alert('please');
+	});
 });

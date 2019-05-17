@@ -105,9 +105,14 @@ $(document).ready(function() {
 		alert('clicked4');
 		
 	});
-	$('span.dt-dropdown-ims').on('click', function(){
+	$('span.dt-dropdown-ims').on('click.dtb', function(){
 	   console.log(this);
-		alert('span.ui-button-text');
+		alert('');
+		
+	});
+	$('button.buttons-columnVisibility>span.dt-dropdown-ims').on('click.dtb', function(){
+	   console.log(this);
+		alert('ugh');
 		
 	});
 });

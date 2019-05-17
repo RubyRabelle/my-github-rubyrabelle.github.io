@@ -90,7 +90,7 @@ $(document).ready(function() {
 	  console.log(this);
 		alert('clicked2');
 	} );
-	$('.buttons-columnVisibility').on('click.dtb', function(){
+	$('.buttons-columnVisibility > span').on('click.dtb', function(){
 	   console.log(this);
 		alert('clicked');
 	});

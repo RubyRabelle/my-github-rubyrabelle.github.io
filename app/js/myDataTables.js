@@ -51,7 +51,7 @@ var dtExportDropDownButtons = {
 	className: 'buttons-columnVisibility',
     text: '<i class="far fa-eye" aria-hidden="true"></i>&nbsp;&nbsp;Column Visibility',
 	columnText: function ( dt, idx, title ) {
-            return '<i class="far fa-check-square"></i> &nbsp; '+title;
+            return '<span class="dt-dropdown-ims"><i class="far fa-check-square"></i> &nbsp; '+title +'</span>';
         },
     postfixButtons: [
       'colvisRestore'
@@ -105,7 +105,7 @@ $(document).ready(function() {
 		alert('clicked4');
 		
 	});
-	$('span.ui-button-text').on('click', function(){
+	$('.dt-dropdown-ims').on('click', function(){
 	   console.log(this);
 		alert('span.ui-button-text');
 		

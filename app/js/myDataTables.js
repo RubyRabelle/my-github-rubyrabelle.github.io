@@ -87,13 +87,22 @@ $(document).ready(function() {
 		  ]
 	});
 	$('div.dt-button-background').on( 'click.dtb', function () {
-	  alert('clicked2');
+	  console.log(this);
+		alert('clicked2');
 	} );
 	$('.buttons-columnVisibility').on('click.dtb', function(){
-	   alert('clicked');
+	   console.log(this);
+		alert('clicked');
 	});
 	
 	$('div.dt-button-collection > button.buttons-columnVisibility').on('click', function(){
-	   alert('clicked3');
+	   console.log(this);
+		alert('clicked3');
+		
+	});
+	$('div.dt-button-collection > button.buttons-columnVisibility').on('click.dtb', function(){
+	   console.log(this);
+		alert('clicked4');
+		
 	});
 });

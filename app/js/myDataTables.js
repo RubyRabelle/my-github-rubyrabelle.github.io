@@ -86,7 +86,7 @@ $(document).ready(function() {
 			dtColVisButton
 		  ]
 	});
-	$('div.dt-button-background').on( 'click.dtb-collection', function () {
+	$('div.dt-button-background').on( 'click.dtb', function () {
 	  alert('clicked2');
 	} );
 	$('.buttons-columnVisibility').on('click.dtb', function(){

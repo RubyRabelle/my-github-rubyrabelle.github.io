@@ -92,4 +92,8 @@ $(document).ready(function() {
 	$('.buttons-columnVisibility').on('click.dtb', function(){
 	   alert('clicked');
 	});
+	
+	$('.buttons-columnVisibility').on('click', function(){
+	   alert('clicked3');
+	});
 });

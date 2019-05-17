@@ -105,7 +105,7 @@ $(document).ready(function() {
 		alert('clicked4');
 		
 	});
-	$('span.ui-button-text').on('click.dtb', function(){
+	$('span.ui-button-text').on('click', function(){
 	   console.log(this);
 		alert('span.ui-button-text');
 		

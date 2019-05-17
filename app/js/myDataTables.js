@@ -93,7 +93,7 @@ $(document).ready(function() {
 	   alert('clicked');
 	});
 	
-	$('button.buttons-columnVisibility').on('click', function(){
+	$('div.dt-button-collection > button.buttons-columnVisibility').on('click', function(){
 	   alert('clicked3');
 	});
 });

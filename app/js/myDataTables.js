@@ -86,7 +86,7 @@ $(document).ready(function() {
 			dtColVisButton
 		  ]
 	});
-	$('div.dt-button-background').on( 'click.dtb', function () {
+	/* $('div.dt-button-background').on( 'click.dtb', function () {
 	  console.log(this);
 		alert('clicked2');
 	} );
@@ -120,4 +120,5 @@ $(document).ready(function() {
 		console.log(e);
 		alert('please');
 	});
+	*/
 });
